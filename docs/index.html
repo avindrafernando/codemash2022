@@ -1,79 +1,700 @@
 <!DOCTYPE html>
-	<html class="sl-root decks export offline loaded">
-	<head>
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
-		<meta charset="utf-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-		<title>10 Ways to Write Clean JavaScript Code - CodeMash 2022</title>
+<html class="sl-root decks export offline loaded">
+  <head>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui"
+    />
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <title>10 Ways to Write Clean JavaScript Code - CodeMash 2022</title>
 
-
-		<link rel="stylesheet" type="text/css" href="lib/offline-v2.css">
-
-
-
-	</head>
-	<body class="reveal-viewport theme-font-montserrat theme-color-silver-blue">
-		<div class="reveal">
-			<div class="slides">
-				<section data-id="685e96859e51a6c0ce87a775f485cb91"><div class="sl-block" data-block-type="text" style="width: 806px; left: 237px; top: 214.5px; height: auto;" data-block-id="29ef5c2c93c9c23ac458e4149ebd4b51"><div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text" style="z-index: 10;">
-<h1>10 Ways to Write Clean JavaScript Code</h1>
-</div></div>
-<div class="sl-block" data-block-type="text" style="width: 375px; left: 895px; top: 661px; height: auto;" data-block-id="60a3bbda9a3a7dec03813553c1356be7" data-name="text-90c6c9"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Subtitle" style="z-index: 11;">
-<h3><span style="font-size:1.0em">@avindrafernando</span></h3>
-</div></div></section><section data-id="4cc441833613e041873e683b7fe4cf43"><div class="sl-block" data-block-type="image" data-name="image-f7247f" data-block-id="4cabf24c53d9ca760c080047fab2ee4d" style="width: 1080px; height: 720px; left: 100px; top: 0px; min-width: 1px; min-height: 1px;"><div class="sl-block-content" style="z-index: 10;"><img style="" data-natural-width="1920" data-natural-height="1280" data-lazy-loaded="" data-src="10-ways-to-write-clean-javascript-code/d9501c276cebf85f12f0ad751ca4e4fd"></div></div></section><section data-id="21d340ce08bd1703015bd6f3bc1b33b9"><div class="sl-block" data-block-type="image" data-name="image-874c8f" data-block-id="ace047e3fa94d6e8518219e7b95b7a8f" style="width: 1080px; height: 720px; left: 100px; top: 0px; min-width: 1px; min-height: 1px;"><div class="sl-block-content" style="z-index: 10;"><img style="" data-natural-width="1920" data-natural-height="1280" data-lazy-loaded="" data-src="10-ways-to-write-clean-javascript-code/442e40ea204497bd737e5e75b4645e77"></div></div></section><section data-id="48a93fa4e9586d2d505386fb86975297"><div class="sl-block" data-block-type="image" data-name="image-7397e6" data-block-id="adbbf28464dfe46e3ed91b6d04ae93f4" style="width: 1080px; height: 720px; left: 100px; top: 0px; min-width: 1px; min-height: 1px;"><div class="sl-block-content" style="z-index: 10;"><img style="" data-natural-width="1920" data-natural-height="1280" data-lazy-loaded="" data-src="10-ways-to-write-clean-javascript-code/51cb2fdf02c07ebf54331d325de0c825"></div></div></section><section data-id="e2db75d8070544f5236c47ed1223b373"><div class="sl-block" data-block-type="image" data-name="image-f87fca" data-block-id="3760afcd0222c65623e244fcace409e6" style="width: 1084.24px; height: 720px; left: 97.88px; top: 0px; min-width: 1px; min-height: 1px;"><div class="sl-block-content" style="z-index: 10;"><img style="" data-natural-width="1920" data-natural-height="1275" data-lazy-loaded="" data-src="10-ways-to-write-clean-javascript-code/61593901c0c1ff0496bce652a9a4dd07"></div></div></section><section data-id="2eaef8a4ca595c45dc37a4f13f10df02"><div class="sl-block" data-block-type="image" data-name="image-92360a" data-block-id="931d5ab97c7ab91b1206e347b498c65f" style="width: 1083.39px; height: 720px; left: 98.305px; top: 0px; min-width: 1px; min-height: 1px;"><div class="sl-block-content" style="z-index: 10;"><img style="" data-natural-width="1920" data-natural-height="1276" data-lazy-loaded="" data-src="10-ways-to-write-clean-javascript-code/13a11e940e73f85db6767de4c72c0f75"></div></div></section><section data-id="c8ea2e1a008b13faa6bac2573775d595"><div class="sl-block" data-block-type="image" data-name="image-46ef84" data-block-id="f4522449ea66338503f9db30da9a3b55" style="width: 640px; height: 426.667px; left: 0px; top: 146.667px; min-width: 1px; min-height: 1px;"><div class="sl-block-content" style="z-index: 10;"><img style="" data-natural-width="1920" data-natural-height="1280" data-lazy-loaded="" data-src="10-ways-to-write-clean-javascript-code/ae62482e121859f403a51f7eed0a9762"></div></div>
-<div class="sl-block" data-block-type="image" data-name="image-cfa3cd" data-block-id="89509e68135bb7a50e84f3cff21b1208" style="width: 638.666px; height: 426.775px; left: 640px; top: 146.667px; min-width: 1px; min-height: 1px;"><div class="sl-block-content" style="z-index: 11;"><img style="" data-natural-width="1920" data-natural-height="1283" data-lazy-loaded="" data-src="10-ways-to-write-clean-javascript-code/7035877315aef9d85b46b725bfd98db9"></div></div></section><section data-id="4d40204b83a5739558fe44128f1c5598"><div class="sl-block" data-block-type="text" style="width: 806px; left: 238px; top: 102px; height: auto;" data-block-id="55058c8806c5a557f5b5b11a2f83ac9f"><div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text" style="z-index: 10;">
-<h1>Who Am I?</h1>
-</div></div>
-<div class="sl-block" data-block-type="text" style="width: 386px; left: 508px; top: 324px; height: auto;" data-block-id="903b3e471a2f563731cc8381d8ac3115"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Subtitle" style="z-index: 11;">
-<h3>@avindrafernando</h3>
-</div></div>
-<div class="sl-block" data-block-type="image" style="width: 119px; height: 119px; left: 389px; top: 290px; min-width: 1px; min-height: 1px;" data-block-id="6c1cd8993a4b342e73681e9f0b27f4a0"><a class="sl-block-content" style="z-index: 12;" href="https://twitter.com/avindrafernando" target="_blank"><img style="" data-natural-width="1280" data-natural-height="1280" data-lazy-loaded="" data-src="10-ways-to-write-clean-javascript-code/ed2f8716dbdf5955215a2c1f7ffafe1b.png"></a></div>
-<div class="sl-block" data-block-type="image" style="width: 69px; height: 69px; left: 414px; top: 404px; min-width: 1px; min-height: 1px;" data-block-id="d3951b9eee2d7b0461c92107819451e0"><a class="sl-block-content" style="z-index: 13;" href="https://medium.com/@avindra1" target="_blank"><img data-natural-width="195" data-natural-height="195" style="" data-lazy-loaded="" data-src="10-ways-to-write-clean-javascript-code/cb272a02f021906dabf97685844104d7.png"></a></div>
-<div class="sl-block" data-block-type="text" style="width: 257px; left: 491px; top: 413px; height: auto;" data-block-id="40ef289dd9c76529fccd957103bc260f"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Subtitle" style="z-index: 14;">
-<h3>@avindra1</h3>
-</div></div>
-<div class="sl-block" data-block-type="image" style="width: 77px; height: 77px; left: 406px; top: 494px; min-width: 1px; min-height: 1px;" data-block-id="9cc886eb6832c9197cfc5a05357ccfb3"><a class="sl-block-content" style="z-index: 15;" href="https://github.com/avindrafernando" target="_blank"><img style="" data-natural-width="1280" data-natural-height="1280" data-lazy-loaded="" data-src="10-ways-to-write-clean-javascript-code/4a52bc7ba0cb349e47ec409288a8f80e.png"></a></div>
-<div class="sl-block" data-block-type="text" style="width: 370px; left: 508px; top: 507px; height: auto;" data-block-id="d7c2539bf9f7f7028c2de1507d34d55a"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Subtitle" style="z-index: 16;">
-<h3>avindrafernando</h3>
-</div></div></section><section data-id="f29fbe22347fd41f35a0638e086566fd"><div class="sl-block" data-block-type="text" style="width: 1076px; left: 102px; top: 35px; height: auto;" data-block-id="2646748d8571a13aa94ab8e837a802f2"><div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text" style="z-index: 10;">
-<h2>Maintaining code can be challenging</h2>
-</div></div>
-<div class="sl-block" data-block-type="image" data-name="image-c60029" data-block-id="a69b30c09e3c760126073f9c1be0e334" style="width: 847.8px; height: 565.2px; left: 216.1px; top: 149.4px; min-width: 1px; min-height: 1px;"><div class="sl-block-content" style="z-index: 11;"><img style="" data-natural-width="1920" data-natural-height="1280" data-lazy-loaded="" data-src="10-ways-to-write-clean-javascript-code/e088fe7c69af33b38fea657100da699b"></div></div></section><section data-id="2d415933ec53113538b22e1fcdfccb25"><div class="sl-block" data-block-type="image" data-name="image-21d2b9" data-block-id="98223cb4be68fdee9e0ee6fcc97c43ed" style="width: 426.24px; height: 532.8px; left: 106.88px; top: 93.6px; min-width: 1px; min-height: 1px;"><div class="sl-block-content" style="z-index: 10;"><img style="" data-natural-width="1920" data-natural-height="2400" data-lazy-loaded="" data-src="10-ways-to-write-clean-javascript-code/e2811debb596fe3bad2411c05623f21e"></div></div>
-<div class="sl-block" data-block-type="image" data-name="image-1c735b" data-block-id="d936340ba9df5ce3b1110bb3c64a76a3" style="width: 399.6px; height: 532.8px; left: 760.2px; top: 93.6px; min-width: 1px; min-height: 1px;"><div class="sl-block-content" style="z-index: 11;"><img style="" data-natural-width="1920" data-natural-height="2560" data-lazy-loaded="" data-src="10-ways-to-write-clean-javascript-code/82da5da433956e5b1306b7f8a9099547"></div></div></section><section data-id="f5f54853c05e3e7b4d48ece2892b72f3"><div class="sl-block" data-block-type="text" style="width: 567px; left: 596.5px; top: 311px; height: auto;" data-block-id="ecf3298ab1c11b433812e4c5743bf3df"><div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text" style="z-index: 10;">
-<h1>Clean Code</h1>
-</div></div>
-<div class="sl-block" data-block-type="image" data-name="image-15aa39" data-block-id="da242da1359cf225f4e31a9f8b3c4102" style="width: 399.6px; height: 532.8px; left: 120.2px; top: 93.6px; min-width: 1px; min-height: 1px;"><div class="sl-block-content" style="z-index: 11;"><img style="" data-natural-width="1920" data-natural-height="2560" data-lazy-loaded="" data-src="10-ways-to-write-clean-javascript-code/4956a5c60ea524abe643ec47d0b57488"></div></div></section><section data-id="50afc742b3ca93b95453db926b47997c"><div class="sl-block" data-block-type="text" data-name="text-18f0ae" data-block-id="e00c430b561ba502b7dfeef88e9e5ffb" style="height: auto; width: 996px; left: 142px; top: 258.5px;"><div class="sl-block-style" style="z-index: 10; transform: rotate(0deg);"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10;">
-<blockquote>
-<h3><em>Clean code is code that is easy to understand and easy to change.<br>
-<br>
-- Clean Code</em></h3>
-</blockquote>
-</div></div></div></section><section data-id="1fb228222f4c9b45240a6c989222163a"><div class="sl-block" data-block-type="text" style="width: 806px; left: 237px; top: 113px; height: auto;" data-block-id="d45ccd2cae73a4ee5630aef267c3e948"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 10;">
-<h2>What is Clean Code?</h2>
-</div></div>
-<div class="sl-block" data-block-type="text" style="width: 842px; left: 219px; top: 278.5px; height: auto;" data-block-id="6d0a977cbbf2c03823dacbdedcfe168f"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11; line-height: 1.625;" data-has-line-height="">
-<ul>
-	<li>Easy to understand
-	<ul>
-		<li>The execution flow of the entire application</li>
-		<li>How the different objects collaborate with each other</li>
-		<li>The role and responsibility of each class/component</li>
-		<li>What each method/function does</li>
-		<li>What is the purpose of each expression and variable</li>
-	</ul>
-	</li>
-</ul>
-</div></div></section><section data-id="d0892920cef9c2f5715fd90d39505382"><div class="sl-block" data-block-type="text" style="width: 466px; left: 80px; top: 165px; height: auto;" data-block-id="fc8317d1b62b0392814a7a959c0d3c04"><div class="sl-block-content" data-placeholder-tag="h1" style="font-size: 200%; text-align: left; z-index: 10;" data-placeholder-text="Text">
-<h1>10<br>
-Ways</h1>
-</div></div>
-<div class="sl-block" data-block-type="image" data-name="image-d6ab4e" data-block-id="3e2f045504f166e3c3eac6a2782ced06" style="width: 480.096px; height: 720px; left: 800px; top: 0px; min-width: 1px; min-height: 1px;"><div class="sl-block-content" style="z-index: 11;"><img style="" data-natural-width="1667" data-natural-height="2500" data-lazy-loaded="" data-src="10-ways-to-write-clean-javascript-code/80b2ce2c68c0988a104602724674a9a1"></div></div></section><section data-id="5d458ff051c6db41ac85e1ebc1dd1e6a"><div class="sl-block" data-block-type="text" style="width: 1076px; left: 102px; top: 274px; height: auto;" data-block-id="5d5711bde416676eae48065ba591d155"><div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text" style="z-index: 10;">
-<h1>Variables</h1>
-</div></div>
-<div class="sl-block" data-block-type="image" data-name="image-ab0519" data-block-id="8e19d0088d8617fe2b54d643ba1dfe1c" style="width: 106.4px; height: 106.4px; left: 266.8px; top: 269.3px; min-width: 1px; min-height: 1px;"><div class="sl-block-content" style="z-index: 11;"><img style="" data-natural-width="200" data-natural-height="200" data-lazy-loaded="" data-src="10-ways-to-write-clean-javascript-code/1568f49141f2e28812a1fc5638f2112f.gif"></div></div></section><section data-id="08e134215f5e4af66af7cd51951c2a8c"><div class="sl-block" data-block-type="text" style="width: 1076px; left: 102px; top: 32px; height: auto;" data-block-id="2d08ae41694b4c230dd751a22ef6d68e"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 10;">
-<h2>Use meaningful and pronounceable variable names</h2>
-</div></div>
-<div class="sl-block" data-block-type="code" data-name="code-595252" data-block-id="1aba3e249d1171b0b3449a6183614cfe" style="width: 1280px; height: 254px; left: 0px; top: 207px;"><div class="sl-block-content notranslate" data-highlight-theme="monokai" data-code-frame="none" style="z-index: 11;"><pre style="font-size: 20px; line-height: 24px;" class="javascript"><code>// NOT SO CLEAN
+    <link rel="stylesheet" type="text/css" href="lib/offline-v2.css" />
+  </head>
+  <body class="reveal-viewport theme-font-montserrat theme-color-silver-blue">
+    <div class="reveal">
+      <div class="slides">
+        <section data-id="685e96859e51a6c0ce87a775f485cb91">
+          <div
+            class="sl-block"
+            data-block-type="text"
+            style="width: 806px; left: 237px; top: 214.5px; height: auto"
+            data-block-id="29ef5c2c93c9c23ac458e4149ebd4b51"
+          >
+            <div
+              class="sl-block-content"
+              data-placeholder-tag="h1"
+              data-placeholder-text="Title Text"
+              style="z-index: 10"
+            >
+              <h1>10 Ways to Write Clean JavaScript Code</h1>
+            </div>
+          </div>
+          <div
+            class="sl-block"
+            data-block-type="text"
+            style="width: 375px; left: 895px; top: 661px; height: auto"
+            data-block-id="60a3bbda9a3a7dec03813553c1356be7"
+            data-name="text-90c6c9"
+          >
+            <div
+              class="sl-block-content"
+              data-placeholder-tag="h2"
+              data-placeholder-text="Subtitle"
+              style="z-index: 11"
+            >
+              <h3><span style="font-size: 1em">@avindrafernando</span></h3>
+            </div>
+          </div>
+        </section>
+        <section data-id="4cc441833613e041873e683b7fe4cf43">
+          <div
+            class="sl-block"
+            data-block-type="image"
+            data-name="image-f7247f"
+            data-block-id="4cabf24c53d9ca760c080047fab2ee4d"
+            style="
+              width: 1080px;
+              height: 720px;
+              left: 100px;
+              top: 0px;
+              min-width: 1px;
+              min-height: 1px;
+            "
+          >
+            <div class="sl-block-content" style="z-index: 10">
+              <img
+                style=""
+                data-natural-width="1920"
+                data-natural-height="1280"
+                data-lazy-loaded=""
+                data-src="10-ways-to-write-clean-javascript-code/d9501c276cebf85f12f0ad751ca4e4fd"
+              />
+            </div>
+          </div>
+        </section>
+        <section data-id="21d340ce08bd1703015bd6f3bc1b33b9">
+          <div
+            class="sl-block"
+            data-block-type="image"
+            data-name="image-874c8f"
+            data-block-id="ace047e3fa94d6e8518219e7b95b7a8f"
+            style="
+              width: 1080px;
+              height: 720px;
+              left: 100px;
+              top: 0px;
+              min-width: 1px;
+              min-height: 1px;
+            "
+          >
+            <div class="sl-block-content" style="z-index: 10">
+              <img
+                style=""
+                data-natural-width="1920"
+                data-natural-height="1280"
+                data-lazy-loaded=""
+                data-src="10-ways-to-write-clean-javascript-code/442e40ea204497bd737e5e75b4645e77"
+              />
+            </div>
+          </div>
+        </section>
+        <section data-id="48a93fa4e9586d2d505386fb86975297">
+          <div
+            class="sl-block"
+            data-block-type="image"
+            data-name="image-7397e6"
+            data-block-id="adbbf28464dfe46e3ed91b6d04ae93f4"
+            style="
+              width: 1080px;
+              height: 720px;
+              left: 100px;
+              top: 0px;
+              min-width: 1px;
+              min-height: 1px;
+            "
+          >
+            <div class="sl-block-content" style="z-index: 10">
+              <img
+                style=""
+                data-natural-width="1920"
+                data-natural-height="1280"
+                data-lazy-loaded=""
+                data-src="10-ways-to-write-clean-javascript-code/51cb2fdf02c07ebf54331d325de0c825"
+              />
+            </div>
+          </div>
+        </section>
+        <section data-id="e2db75d8070544f5236c47ed1223b373">
+          <div
+            class="sl-block"
+            data-block-type="image"
+            data-name="image-f87fca"
+            data-block-id="3760afcd0222c65623e244fcace409e6"
+            style="
+              width: 1084.24px;
+              height: 720px;
+              left: 97.88px;
+              top: 0px;
+              min-width: 1px;
+              min-height: 1px;
+            "
+          >
+            <div class="sl-block-content" style="z-index: 10">
+              <img
+                style=""
+                data-natural-width="1920"
+                data-natural-height="1275"
+                data-lazy-loaded=""
+                data-src="10-ways-to-write-clean-javascript-code/61593901c0c1ff0496bce652a9a4dd07"
+              />
+            </div>
+          </div>
+        </section>
+        <section data-id="2eaef8a4ca595c45dc37a4f13f10df02">
+          <div
+            class="sl-block"
+            data-block-type="image"
+            data-name="image-92360a"
+            data-block-id="931d5ab97c7ab91b1206e347b498c65f"
+            style="
+              width: 1083.39px;
+              height: 720px;
+              left: 98.305px;
+              top: 0px;
+              min-width: 1px;
+              min-height: 1px;
+            "
+          >
+            <div class="sl-block-content" style="z-index: 10">
+              <img
+                style=""
+                data-natural-width="1920"
+                data-natural-height="1276"
+                data-lazy-loaded=""
+                data-src="10-ways-to-write-clean-javascript-code/13a11e940e73f85db6767de4c72c0f75"
+              />
+            </div>
+          </div>
+        </section>
+        <section data-id="c8ea2e1a008b13faa6bac2573775d595">
+          <div
+            class="sl-block"
+            data-block-type="image"
+            data-name="image-46ef84"
+            data-block-id="f4522449ea66338503f9db30da9a3b55"
+            style="
+              width: 640px;
+              height: 426.667px;
+              left: 0px;
+              top: 146.667px;
+              min-width: 1px;
+              min-height: 1px;
+            "
+          >
+            <div class="sl-block-content" style="z-index: 10">
+              <img
+                style=""
+                data-natural-width="1920"
+                data-natural-height="1280"
+                data-lazy-loaded=""
+                data-src="10-ways-to-write-clean-javascript-code/ae62482e121859f403a51f7eed0a9762"
+              />
+            </div>
+          </div>
+          <div
+            class="sl-block"
+            data-block-type="image"
+            data-name="image-cfa3cd"
+            data-block-id="89509e68135bb7a50e84f3cff21b1208"
+            style="
+              width: 638.666px;
+              height: 426.775px;
+              left: 640px;
+              top: 146.667px;
+              min-width: 1px;
+              min-height: 1px;
+            "
+          >
+            <div class="sl-block-content" style="z-index: 11">
+              <img
+                style=""
+                data-natural-width="1920"
+                data-natural-height="1283"
+                data-lazy-loaded=""
+                data-src="10-ways-to-write-clean-javascript-code/7035877315aef9d85b46b725bfd98db9"
+              />
+            </div>
+          </div>
+        </section>
+        <section data-id="4d40204b83a5739558fe44128f1c5598">
+          <div
+            class="sl-block"
+            data-block-type="text"
+            style="width: 806px; left: 238px; top: 102px; height: auto"
+            data-block-id="55058c8806c5a557f5b5b11a2f83ac9f"
+          >
+            <div
+              class="sl-block-content"
+              data-placeholder-tag="h1"
+              data-placeholder-text="Title Text"
+              style="z-index: 10"
+            >
+              <h1>Who Am I?</h1>
+            </div>
+          </div>
+          <div
+            class="sl-block"
+            data-block-type="text"
+            style="width: 386px; left: 508px; top: 324px; height: auto"
+            data-block-id="903b3e471a2f563731cc8381d8ac3115"
+          >
+            <div
+              class="sl-block-content"
+              data-placeholder-tag="h2"
+              data-placeholder-text="Subtitle"
+              style="z-index: 11"
+            >
+              <h3>@avindrafernando</h3>
+            </div>
+          </div>
+          <div
+            class="sl-block"
+            data-block-type="image"
+            style="
+              width: 119px;
+              height: 119px;
+              left: 389px;
+              top: 290px;
+              min-width: 1px;
+              min-height: 1px;
+            "
+            data-block-id="6c1cd8993a4b342e73681e9f0b27f4a0"
+          >
+            <a
+              class="sl-block-content"
+              style="z-index: 12"
+              href="https://twitter.com/avindrafernando"
+              target="_blank"
+              ><img
+                style=""
+                data-natural-width="1280"
+                data-natural-height="1280"
+                data-lazy-loaded=""
+                data-src="10-ways-to-write-clean-javascript-code/ed2f8716dbdf5955215a2c1f7ffafe1b.png"
+            /></a>
+          </div>
+          <div
+            class="sl-block"
+            data-block-type="image"
+            style="
+              width: 69px;
+              height: 69px;
+              left: 414px;
+              top: 404px;
+              min-width: 1px;
+              min-height: 1px;
+            "
+            data-block-id="d3951b9eee2d7b0461c92107819451e0"
+          >
+            <a
+              class="sl-block-content"
+              style="z-index: 13"
+              href="https://medium.com/@avindra1"
+              target="_blank"
+              ><img
+                data-natural-width="195"
+                data-natural-height="195"
+                style=""
+                data-lazy-loaded=""
+                data-src="10-ways-to-write-clean-javascript-code/cb272a02f021906dabf97685844104d7.png"
+            /></a>
+          </div>
+          <div
+            class="sl-block"
+            data-block-type="text"
+            style="width: 257px; left: 491px; top: 413px; height: auto"
+            data-block-id="40ef289dd9c76529fccd957103bc260f"
+          >
+            <div
+              class="sl-block-content"
+              data-placeholder-tag="h2"
+              data-placeholder-text="Subtitle"
+              style="z-index: 14"
+            >
+              <h3>@avindra1</h3>
+            </div>
+          </div>
+          <div
+            class="sl-block"
+            data-block-type="image"
+            style="
+              width: 77px;
+              height: 77px;
+              left: 406px;
+              top: 494px;
+              min-width: 1px;
+              min-height: 1px;
+            "
+            data-block-id="9cc886eb6832c9197cfc5a05357ccfb3"
+          >
+            <a
+              class="sl-block-content"
+              style="z-index: 15"
+              href="https://github.com/avindrafernando"
+              target="_blank"
+              ><img
+                style=""
+                data-natural-width="1280"
+                data-natural-height="1280"
+                data-lazy-loaded=""
+                data-src="10-ways-to-write-clean-javascript-code/4a52bc7ba0cb349e47ec409288a8f80e.png"
+            /></a>
+          </div>
+          <div
+            class="sl-block"
+            data-block-type="text"
+            style="width: 370px; left: 508px; top: 507px; height: auto"
+            data-block-id="d7c2539bf9f7f7028c2de1507d34d55a"
+          >
+            <div
+              class="sl-block-content"
+              data-placeholder-tag="h2"
+              data-placeholder-text="Subtitle"
+              style="z-index: 16"
+            >
+              <h3>avindrafernando</h3>
+            </div>
+          </div>
+        </section>
+        <section data-id="f29fbe22347fd41f35a0638e086566fd">
+          <div
+            class="sl-block"
+            data-block-type="text"
+            style="width: 1076px; left: 102px; top: 35px; height: auto"
+            data-block-id="2646748d8571a13aa94ab8e837a802f2"
+          >
+            <div
+              class="sl-block-content"
+              data-placeholder-tag="h1"
+              data-placeholder-text="Title Text"
+              style="z-index: 10"
+            >
+              <h2>Maintaining code can be challenging</h2>
+            </div>
+          </div>
+          <div
+            class="sl-block"
+            data-block-type="image"
+            data-name="image-c60029"
+            data-block-id="a69b30c09e3c760126073f9c1be0e334"
+            style="
+              width: 847.8px;
+              height: 565.2px;
+              left: 216.1px;
+              top: 149.4px;
+              min-width: 1px;
+              min-height: 1px;
+            "
+          >
+            <div class="sl-block-content" style="z-index: 11">
+              <img
+                style=""
+                data-natural-width="1920"
+                data-natural-height="1280"
+                data-lazy-loaded=""
+                data-src="10-ways-to-write-clean-javascript-code/e088fe7c69af33b38fea657100da699b"
+              />
+            </div>
+          </div>
+        </section>
+        <section data-id="2d415933ec53113538b22e1fcdfccb25">
+          <div
+            class="sl-block"
+            data-block-type="image"
+            data-name="image-21d2b9"
+            data-block-id="98223cb4be68fdee9e0ee6fcc97c43ed"
+            style="
+              width: 426.24px;
+              height: 532.8px;
+              left: 106.88px;
+              top: 93.6px;
+              min-width: 1px;
+              min-height: 1px;
+            "
+          >
+            <div class="sl-block-content" style="z-index: 10">
+              <img
+                style=""
+                data-natural-width="1920"
+                data-natural-height="2400"
+                data-lazy-loaded=""
+                data-src="10-ways-to-write-clean-javascript-code/e2811debb596fe3bad2411c05623f21e"
+              />
+            </div>
+          </div>
+          <div
+            class="sl-block"
+            data-block-type="image"
+            data-name="image-1c735b"
+            data-block-id="d936340ba9df5ce3b1110bb3c64a76a3"
+            style="
+              width: 399.6px;
+              height: 532.8px;
+              left: 760.2px;
+              top: 93.6px;
+              min-width: 1px;
+              min-height: 1px;
+            "
+          >
+            <div class="sl-block-content" style="z-index: 11">
+              <img
+                style=""
+                data-natural-width="1920"
+                data-natural-height="2560"
+                data-lazy-loaded=""
+                data-src="10-ways-to-write-clean-javascript-code/82da5da433956e5b1306b7f8a9099547"
+              />
+            </div>
+          </div>
+        </section>
+        <section data-id="f5f54853c05e3e7b4d48ece2892b72f3">
+          <div
+            class="sl-block"
+            data-block-type="text"
+            style="width: 567px; left: 596.5px; top: 311px; height: auto"
+            data-block-id="ecf3298ab1c11b433812e4c5743bf3df"
+          >
+            <div
+              class="sl-block-content"
+              data-placeholder-tag="h1"
+              data-placeholder-text="Title Text"
+              style="z-index: 10"
+            >
+              <h1>Clean Code</h1>
+            </div>
+          </div>
+          <div
+            class="sl-block"
+            data-block-type="image"
+            data-name="image-15aa39"
+            data-block-id="da242da1359cf225f4e31a9f8b3c4102"
+            style="
+              width: 399.6px;
+              height: 532.8px;
+              left: 120.2px;
+              top: 93.6px;
+              min-width: 1px;
+              min-height: 1px;
+            "
+          >
+            <div class="sl-block-content" style="z-index: 11">
+              <img
+                style=""
+                data-natural-width="1920"
+                data-natural-height="2560"
+                data-lazy-loaded=""
+                data-src="10-ways-to-write-clean-javascript-code/4956a5c60ea524abe643ec47d0b57488"
+              />
+            </div>
+          </div>
+        </section>
+        <section data-id="50afc742b3ca93b95453db926b47997c">
+          <div
+            class="sl-block"
+            data-block-type="text"
+            data-name="text-18f0ae"
+            data-block-id="e00c430b561ba502b7dfeef88e9e5ffb"
+            style="height: auto; width: 996px; left: 142px; top: 258.5px"
+          >
+            <div
+              class="sl-block-style"
+              style="z-index: 10; transform: rotate(0deg)"
+            >
+              <div
+                class="sl-block-content"
+                data-placeholder-tag="p"
+                data-placeholder-text="Text"
+                style="z-index: 10"
+              >
+                <blockquote>
+                  <h3>
+                    <em
+                      >Clean code is code that is easy to understand and easy to
+                      change.<br />
+                      <br />
+                      - Clean Code</em
+                    >
+                  </h3>
+                </blockquote>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section data-id="1fb228222f4c9b45240a6c989222163a">
+          <div
+            class="sl-block"
+            data-block-type="text"
+            style="width: 806px; left: 237px; top: 113px; height: auto"
+            data-block-id="d45ccd2cae73a4ee5630aef267c3e948"
+          >
+            <div
+              class="sl-block-content"
+              data-placeholder-tag="h2"
+              data-placeholder-text="Title Text"
+              style="z-index: 10"
+            >
+              <h2>What is Clean Code?</h2>
+            </div>
+          </div>
+          <div
+            class="sl-block"
+            data-block-type="text"
+            style="width: 842px; left: 219px; top: 278.5px; height: auto"
+            data-block-id="6d0a977cbbf2c03823dacbdedcfe168f"
+          >
+            <div
+              class="sl-block-content"
+              data-placeholder-tag="p"
+              data-placeholder-text="Text"
+              style="z-index: 11; line-height: 1.625"
+              data-has-line-height=""
+            >
+              <ul>
+                <li>
+                  Easy to understand
+                  <ul>
+                    <li>The execution flow of the entire application</li>
+                    <li>
+                      How the different objects collaborate with each other
+                    </li>
+                    <li>The role and responsibility of each class/component</li>
+                    <li>What each method/function does</li>
+                    <li>What is the purpose of each expression and variable</li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+        <section data-id="d0892920cef9c2f5715fd90d39505382">
+          <div
+            class="sl-block"
+            data-block-type="text"
+            style="width: 466px; left: 80px; top: 165px; height: auto"
+            data-block-id="fc8317d1b62b0392814a7a959c0d3c04"
+          >
+            <div
+              class="sl-block-content"
+              data-placeholder-tag="h1"
+              style="font-size: 200%; text-align: left; z-index: 10"
+              data-placeholder-text="Text"
+            >
+              <h1>
+                10<br />
+                Ways
+              </h1>
+            </div>
+          </div>
+          <div
+            class="sl-block"
+            data-block-type="image"
+            data-name="image-d6ab4e"
+            data-block-id="3e2f045504f166e3c3eac6a2782ced06"
+            style="
+              width: 480.096px;
+              height: 720px;
+              left: 800px;
+              top: 0px;
+              min-width: 1px;
+              min-height: 1px;
+            "
+          >
+            <div class="sl-block-content" style="z-index: 11">
+              <img
+                style=""
+                data-natural-width="1667"
+                data-natural-height="2500"
+                data-lazy-loaded=""
+                data-src="10-ways-to-write-clean-javascript-code/80b2ce2c68c0988a104602724674a9a1"
+              />
+            </div>
+          </div>
+        </section>
+        <section data-id="5d458ff051c6db41ac85e1ebc1dd1e6a">
+          <div
+            class="sl-block"
+            data-block-type="text"
+            style="width: 1076px; left: 102px; top: 274px; height: auto"
+            data-block-id="5d5711bde416676eae48065ba591d155"
+          >
+            <div
+              class="sl-block-content"
+              data-placeholder-tag="h1"
+              data-placeholder-text="Title Text"
+              style="z-index: 10"
+            >
+              <h1>Variables</h1>
+            </div>
+          </div>
+          <div
+            class="sl-block"
+            data-block-type="image"
+            data-name="image-ab0519"
+            data-block-id="8e19d0088d8617fe2b54d643ba1dfe1c"
+            style="
+              width: 106.4px;
+              height: 106.4px;
+              left: 266.8px;
+              top: 269.3px;
+              min-width: 1px;
+              min-height: 1px;
+            "
+          >
+            <div class="sl-block-content" style="z-index: 11">
+              <img
+                style=""
+                data-natural-width="200"
+                data-natural-height="200"
+                data-lazy-loaded=""
+                data-src="10-ways-to-write-clean-javascript-code/1568f49141f2e28812a1fc5638f2112f.gif"
+              />
+            </div>
+          </div>
+        </section>
+        <section data-id="08e134215f5e4af66af7cd51951c2a8c">
+          <div
+            class="sl-block"
+            data-block-type="text"
+            style="width: 1076px; left: 102px; top: 32px; height: auto"
+            data-block-id="2d08ae41694b4c230dd751a22ef6d68e"
+          >
+            <div
+              class="sl-block-content"
+              data-placeholder-tag="h2"
+              data-placeholder-text="Title Text"
+              style="z-index: 10"
+            >
+              <h2>Use meaningful and pronounceable variable names</h2>
+            </div>
+          </div>
+          <div
+            class="sl-block"
+            data-block-type="code"
+            data-name="code-595252"
+            data-block-id="1aba3e249d1171b0b3449a6183614cfe"
+            style="width: 1280px; height: 254px; left: 0px; top: 207px"
+          >
+            <div
+              class="sl-block-content notranslate"
+              data-highlight-theme="monokai"
+              data-code-frame="none"
+              style="z-index: 11"
+            >
+              <pre
+                style="font-size: 20px; line-height: 24px"
+                class="javascript"
+              ><code>// NOT SO CLEAN
 const yyyymmdd = moment().format("YYYY/MM/DD");
 
 const m = new Date().getMonth();
@@ -83,8 +704,27 @@ let ok;
 if (test.coverage &gt; 75) {
   ok = true;
 }
-</code></pre></div></div>
-<div class="sl-block" data-block-type="code" style="width: 1280px; height: 243px; left: 0px; top: 477px;" data-block-id="d065473a974e25aeecc34d34e3d9c830" data-name="code-d576c7"><div class="sl-block-content notranslate fragment" data-highlight-theme="monokai" data-code-frame="none" style="z-index: 12;" data-fragment-index="0"><pre style="font-size: 20px; line-height: 24px;" class="javascript"><code>// MUCH BETTER
+</code></pre>
+            </div>
+          </div>
+          <div
+            class="sl-block"
+            data-block-type="code"
+            style="width: 1280px; height: 243px; left: 0px; top: 477px"
+            data-block-id="d065473a974e25aeecc34d34e3d9c830"
+            data-name="code-d576c7"
+          >
+            <div
+              class="sl-block-content notranslate fragment"
+              data-highlight-theme="monokai"
+              data-code-frame="none"
+              style="z-index: 12"
+              data-fragment-index="0"
+            >
+              <pre
+                style="font-size: 20px; line-height: 24px"
+                class="javascript"
+              ><code>// MUCH BETTER
 
 const currentDate = moment().format("YYYY/MM/DD");
 
@@ -92,21 +732,106 @@ const currentMonth = new Date().getMonth();
 
 const TEST_COVERAGE_THRESHOLD = 75;
 
-const isTestCoverageThresholdMet = test.coverage &gt; TEST_COVERAGE_THRESHOLD;</code></pre></div></div></section><section data-id="442edc49c4d13fba26f827e47f3a87ab"><div class="sl-block" data-block-type="text" style="width: 1076px; left: 102px; top: 43px; height: auto;" data-block-id="df80d02ef9878f6870456e1b94de3d56"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 10;">
-<h2>Use searchable names</h2>
-</div></div>
-<div class="sl-block" data-block-type="code" data-name="code-595252" style="width: 1280px; height: 186px; left: 0px; top: 216px;" data-block-id="63aeeca4df1d4a5b9f64906d91e2600a"><div class="sl-block-content notranslate" data-highlight-theme="monokai" data-code-frame="none" style="z-index: 11;"><pre style="font-size: 25px; line-height: 30px;" class="javascript"><code>// NOT SO CLEAN
+const isTestCoverageThresholdMet = test.coverage &gt; TEST_COVERAGE_THRESHOLD;</code></pre>
+            </div>
+          </div>
+        </section>
+        <section data-id="442edc49c4d13fba26f827e47f3a87ab">
+          <div
+            class="sl-block"
+            data-block-type="text"
+            style="width: 1076px; left: 102px; top: 43px; height: auto"
+            data-block-id="df80d02ef9878f6870456e1b94de3d56"
+          >
+            <div
+              class="sl-block-content"
+              data-placeholder-tag="h2"
+              data-placeholder-text="Title Text"
+              style="z-index: 10"
+            >
+              <h2>Use searchable names</h2>
+            </div>
+          </div>
+          <div
+            class="sl-block"
+            data-block-type="code"
+            data-name="code-595252"
+            style="width: 1280px; height: 186px; left: 0px; top: 216px"
+            data-block-id="63aeeca4df1d4a5b9f64906d91e2600a"
+          >
+            <div
+              class="sl-block-content notranslate"
+              data-highlight-theme="monokai"
+              data-code-frame="none"
+              style="z-index: 11"
+            >
+              <pre
+                style="font-size: 25px; line-height: 30px"
+                class="javascript"
+              ><code>// NOT SO CLEAN
 // What does this magic number mean?
 setTimeout(doSomething, 86400);
-</code></pre></div></div>
-<div class="sl-block" data-block-type="code" style="width: 1280px; height: 186px; left: 0px; top: 483px;" data-name="code-d576c7" data-block-id="d8a9e12e1b049819e2fb72f1b1ed5bf7"><div class="sl-block-content notranslate fragment" data-highlight-theme="monokai" data-code-frame="none" style="z-index: 12;" data-fragment-index="0"><pre style="font-size: 25px; line-height: 30px;" class="javascript"><code>// MUCH BETTER
+</code></pre>
+            </div>
+          </div>
+          <div
+            class="sl-block"
+            data-block-type="code"
+            style="width: 1280px; height: 186px; left: 0px; top: 483px"
+            data-name="code-d576c7"
+            data-block-id="d8a9e12e1b049819e2fb72f1b1ed5bf7"
+          >
+            <div
+              class="sl-block-content notranslate fragment"
+              data-highlight-theme="monokai"
+              data-code-frame="none"
+              style="z-index: 12"
+              data-fragment-index="0"
+            >
+              <pre
+                style="font-size: 25px; line-height: 30px"
+                class="javascript"
+              ><code>// MUCH BETTER
 // Declare them as capitalized named constants.
 const SECONDS_PER_DAY = 60 * 60 * 24; //86400;
 
-setTimeout(doSomething, SECONDS_PER_DAY);</code></pre></div></div></section><section data-id="ac2a19c672479263b29bbf215d6faa7f"><div class="sl-block" data-block-type="text" style="width: 1076px; left: 102px; top: 43px; height: auto;" data-block-id="7c8bed9bb64e2f2e0ba1b11fb4ec5108"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 10;">
-<h2>Don't add unneeded context</h2>
-</div></div>
-<div class="sl-block" data-block-type="code" data-name="code-595252" style="width: 1280px; height: 288px; left: 0px; top: 144px;" data-block-id="a33f9d5198c6bdda643208f07a0c030e"><div class="sl-block-content notranslate" data-highlight-theme="monokai" data-code-frame="none" style="z-index: 11;"><pre style="font-size: 23px; line-height: 28px;" class="javascript"><code>// NOT SO CLEAN
+setTimeout(doSomething, SECONDS_PER_DAY);</code></pre>
+            </div>
+          </div>
+        </section>
+        <section data-id="ac2a19c672479263b29bbf215d6faa7f">
+          <div
+            class="sl-block"
+            data-block-type="text"
+            style="width: 1076px; left: 102px; top: 43px; height: auto"
+            data-block-id="7c8bed9bb64e2f2e0ba1b11fb4ec5108"
+          >
+            <div
+              class="sl-block-content"
+              data-placeholder-tag="h2"
+              data-placeholder-text="Title Text"
+              style="z-index: 10"
+            >
+              <h2>Don't add unneeded context</h2>
+            </div>
+          </div>
+          <div
+            class="sl-block"
+            data-block-type="code"
+            data-name="code-595252"
+            style="width: 1280px; height: 288px; left: 0px; top: 144px"
+            data-block-id="a33f9d5198c6bdda643208f07a0c030e"
+          >
+            <div
+              class="sl-block-content notranslate"
+              data-highlight-theme="monokai"
+              data-code-frame="none"
+              style="z-index: 11"
+            >
+              <pre
+                style="font-size: 23px; line-height: 28px"
+                class="javascript"
+              ><code>// NOT SO CLEAN
 const restaurant = {
   restaurantName: "Best restaurant in town",
   restaurantCapacity: 100,
@@ -116,8 +841,27 @@ const restaurant = {
 function rateRestaurant(restaurant, rating) {
   restaurant.restaurantRating = rating;
 }
-</code></pre></div></div>
-<div class="sl-block" data-block-type="code" style="width: 1280px; height: 276px; left: 0px; top: 444px;" data-name="code-d576c7" data-block-id="a49af4a0655fec3c1c836f79ae4a07f8"><div class="sl-block-content notranslate fragment" data-highlight-theme="monokai" data-code-frame="none" style="z-index: 12;" data-fragment-index="0"><pre style="font-size: 22px; line-height: 26px;" class="javascript"><code>// MUCH BETTER
+</code></pre>
+            </div>
+          </div>
+          <div
+            class="sl-block"
+            data-block-type="code"
+            style="width: 1280px; height: 276px; left: 0px; top: 444px"
+            data-name="code-d576c7"
+            data-block-id="a49af4a0655fec3c1c836f79ae4a07f8"
+          >
+            <div
+              class="sl-block-content notranslate fragment"
+              data-highlight-theme="monokai"
+              data-code-frame="none"
+              style="z-index: 12"
+              data-fragment-index="0"
+            >
+              <pre
+                style="font-size: 22px; line-height: 26px"
+                class="javascript"
+              ><code>// MUCH BETTER
 const restaurant = {
   name: "Best restaurant in town",
   capacity: 100,
@@ -126,20 +870,110 @@ const restaurant = {
 
 function rateRestaurant(restaurant, rating) {
   restaurant.rating = rating;
-}</code></pre></div></div></section><section data-id="d6312e5492181d07f21f065dab54efa8"><div class="sl-block" data-block-type="text" style="width: 1076px; left: 102px; top: 274px; height: auto;" data-block-id="0644408b498e11e536ba18bd272e6c9f"><div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text" style="z-index: 10;">
-<h1>Functions</h1>
-</div></div>
-<div class="sl-block" data-block-type="image" data-name="image-4e6aea" data-block-id="2ea53681e582d9c70b983f7cf3fa775e" style="width: 106.4px; height: 106.4px; left: 266.8px; top: 269.3px; min-width: 1px; min-height: 1px;"><div class="sl-block-content" style="z-index: 11;"><img style="" data-natural-width="200" data-natural-height="200" data-lazy-loaded="" data-src="10-ways-to-write-clean-javascript-code/5d836d8e14908b14595ed383a96b1b6f.gif"></div></div></section><section data-id="b90e4ce3586073867aaa7f810f347411"><div class="sl-block" data-block-type="text" style="width: 1076px; left: 102px; top: 43px; height: auto;" data-block-id="14c03807c04fd49be740271cffbf8980"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 10;">
-<h2>Use two or fewer arguments</h2>
-</div></div>
-<div class="sl-block" data-block-type="code" data-name="code-595252" style="width: 1280px; height: 196px; left: 0px; top: 190px;" data-block-id="cce041f062c901a535a1bea45564f014"><div class="sl-block-content notranslate" data-highlight-theme="monokai" data-code-frame="none" style="z-index: 11;"><pre style="font-size: 23px; line-height: 28px;" class="javascript"><code>// NOT SO CLEAN
+}</code></pre>
+            </div>
+          </div>
+        </section>
+        <section data-id="d6312e5492181d07f21f065dab54efa8">
+          <div
+            class="sl-block"
+            data-block-type="text"
+            style="width: 1076px; left: 102px; top: 274px; height: auto"
+            data-block-id="0644408b498e11e536ba18bd272e6c9f"
+          >
+            <div
+              class="sl-block-content"
+              data-placeholder-tag="h1"
+              data-placeholder-text="Title Text"
+              style="z-index: 10"
+            >
+              <h1>Functions</h1>
+            </div>
+          </div>
+          <div
+            class="sl-block"
+            data-block-type="image"
+            data-name="image-4e6aea"
+            data-block-id="2ea53681e582d9c70b983f7cf3fa775e"
+            style="
+              width: 106.4px;
+              height: 106.4px;
+              left: 266.8px;
+              top: 269.3px;
+              min-width: 1px;
+              min-height: 1px;
+            "
+          >
+            <div class="sl-block-content" style="z-index: 11">
+              <img
+                style=""
+                data-natural-width="200"
+                data-natural-height="200"
+                data-lazy-loaded=""
+                data-src="10-ways-to-write-clean-javascript-code/5d836d8e14908b14595ed383a96b1b6f.gif"
+              />
+            </div>
+          </div>
+        </section>
+        <section data-id="b90e4ce3586073867aaa7f810f347411">
+          <div
+            class="sl-block"
+            data-block-type="text"
+            style="width: 1076px; left: 102px; top: 43px; height: auto"
+            data-block-id="14c03807c04fd49be740271cffbf8980"
+          >
+            <div
+              class="sl-block-content"
+              data-placeholder-tag="h2"
+              data-placeholder-text="Title Text"
+              style="z-index: 10"
+            >
+              <h2>Use two or fewer arguments</h2>
+            </div>
+          </div>
+          <div
+            class="sl-block"
+            data-block-type="code"
+            data-name="code-595252"
+            style="width: 1280px; height: 196px; left: 0px; top: 190px"
+            data-block-id="cce041f062c901a535a1bea45564f014"
+          >
+            <div
+              class="sl-block-content notranslate"
+              data-highlight-theme="monokai"
+              data-code-frame="none"
+              style="z-index: 11"
+            >
+              <pre
+                style="font-size: 23px; line-height: 28px"
+                class="javascript"
+              ><code>// NOT SO CLEAN
 function createNavigationTile(title, subTitle, body, isActive) {
   // ...
 }
 
 createNavigationTile("Foo", "Bar", "Baz", true);
-</code></pre></div></div>
-<div class="sl-block" data-block-type="code" style="width: 1280px; height: 295px; left: 0px; top: 425px;" data-name="code-d576c7" data-block-id="8938a1a975f6d0f0100cc0524c1df765"><div class="sl-block-content notranslate fragment" data-highlight-theme="monokai" data-code-frame="none" style="z-index: 12;" data-fragment-index="0"><pre style="font-size: 22px; line-height: 26px;" class="javascript"><code>// MUCH BETTER
+</code></pre>
+            </div>
+          </div>
+          <div
+            class="sl-block"
+            data-block-type="code"
+            style="width: 1280px; height: 295px; left: 0px; top: 425px"
+            data-name="code-d576c7"
+            data-block-id="8938a1a975f6d0f0100cc0524c1df765"
+          >
+            <div
+              class="sl-block-content notranslate fragment"
+              data-highlight-theme="monokai"
+              data-code-frame="none"
+              style="z-index: 12"
+              data-fragment-index="0"
+            >
+              <pre
+                style="font-size: 22px; line-height: 26px"
+                class="javascript"
+              ><code>// MUCH BETTER
 function createNavigationTile({ title, subTitle, body, isActive }) {
   // ...
 }
@@ -149,24 +983,109 @@ createNavigationTile({
   subTitle: "Bar",
   body: "Baz",
   isActive: true
-});</code></pre></div></div></section><section data-id="36cb116db6069a68a75db0cf98343405"><div class="sl-block" data-block-type="text" style="width: 1076px; left: 102px; top: 43px; height: auto;" data-block-id="8a2fec4520fe88cf2cd91fb62e12eba8"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 10;">
-<h2>Use default arguments</h2>
-</div></div>
-<div class="sl-block" data-block-type="code" data-name="code-595252" style="width: 1280px; height: 196px; left: 0px; top: 191.5px;" data-block-id="436a18d5845661446b872cad49fd0e76"><div class="sl-block-content notranslate" data-highlight-theme="monokai" data-code-frame="none" style="z-index: 11;"><pre style="font-size: 26px; line-height: 31px;" class="javascript"><code>// NOT SO CLEAN
+});</code></pre>
+            </div>
+          </div>
+        </section>
+        <section data-id="36cb116db6069a68a75db0cf98343405">
+          <div
+            class="sl-block"
+            data-block-type="text"
+            style="width: 1076px; left: 102px; top: 43px; height: auto"
+            data-block-id="8a2fec4520fe88cf2cd91fb62e12eba8"
+          >
+            <div
+              class="sl-block-content"
+              data-placeholder-tag="h2"
+              data-placeholder-text="Title Text"
+              style="z-index: 10"
+            >
+              <h2>Use default arguments</h2>
+            </div>
+          </div>
+          <div
+            class="sl-block"
+            data-block-type="code"
+            data-name="code-595252"
+            style="width: 1280px; height: 196px; left: 0px; top: 191.5px"
+            data-block-id="436a18d5845661446b872cad49fd0e76"
+          >
+            <div
+              class="sl-block-content notranslate"
+              data-highlight-theme="monokai"
+              data-code-frame="none"
+              style="z-index: 11"
+            >
+              <pre
+                style="font-size: 26px; line-height: 31px"
+                class="javascript"
+              ><code>// NOT SO CLEAN
 function createBuilding(name) {
   const buildingName = name ?? "Awesome Building Name"
   // ...
 }
-</code></pre></div></div>
-<div class="sl-block" data-block-type="code" style="width: 1280px; height: 205px; left: 0px; top: 473.5px;" data-name="code-d576c7" data-block-id="f240daa663d0cb71c70138bfbee61366"><div class="sl-block-content notranslate fragment" data-highlight-theme="monokai" data-code-frame="none" style="z-index: 12;" data-fragment-index="0"><pre style="font-size: 26px; line-height: 31px;" class="javascript"><code>// MUCH BETTER
+</code></pre>
+            </div>
+          </div>
+          <div
+            class="sl-block"
+            data-block-type="code"
+            style="width: 1280px; height: 205px; left: 0px; top: 473.5px"
+            data-name="code-d576c7"
+            data-block-id="f240daa663d0cb71c70138bfbee61366"
+          >
+            <div
+              class="sl-block-content notranslate fragment"
+              data-highlight-theme="monokai"
+              data-code-frame="none"
+              style="z-index: 12"
+              data-fragment-index="0"
+            >
+              <pre
+                style="font-size: 26px; line-height: 31px"
+                class="javascript"
+              ><code>// MUCH BETTER
 function createBuilding(name = "Awesome Building Name") {
   const buildingName = name;
   // ...
 }
-</code></pre></div></div></section><section data-id="66958781c3235da2118091ef284048d8"><div class="sl-block" data-block-type="text" style="width: 1124px; left: 78px; top: 35px; height: auto;" data-block-id="616669c78a7a5cc621b5ffbac18daa49"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 10;">
-<h2>Use Object.assign for default objects(1)</h2>
-</div></div>
-<div class="sl-block" data-block-type="code" data-name="code-595252" style="width: 1280px; height: 576px; left: 0px; top: 144px;" data-block-id="300328f58c9c61db7a21f47effb66a2b"><div class="sl-block-content notranslate" data-highlight-theme="monokai" data-code-frame="none" style="z-index: 11;"><pre style="font-size: 26px; line-height: 31px;" class="javascript"><code>// NOT SO CLEAN
+</code></pre>
+            </div>
+          </div>
+        </section>
+        <section data-id="66958781c3235da2118091ef284048d8">
+          <div
+            class="sl-block"
+            data-block-type="text"
+            style="width: 1124px; left: 78px; top: 35px; height: auto"
+            data-block-id="616669c78a7a5cc621b5ffbac18daa49"
+          >
+            <div
+              class="sl-block-content"
+              data-placeholder-tag="h2"
+              data-placeholder-text="Title Text"
+              style="z-index: 10"
+            >
+              <h2>Use Object.assign for default objects(1)</h2>
+            </div>
+          </div>
+          <div
+            class="sl-block"
+            data-block-type="code"
+            data-name="code-595252"
+            style="width: 1280px; height: 576px; left: 0px; top: 144px"
+            data-block-id="300328f58c9c61db7a21f47effb66a2b"
+          >
+            <div
+              class="sl-block-content notranslate"
+              data-highlight-theme="monokai"
+              data-code-frame="none"
+              style="z-index: 11"
+            >
+              <pre
+                style="font-size: 26px; line-height: 31px"
+                class="javascript"
+              ><code>// NOT SO CLEAN
 const storeConfig = {
   name: null,
   location: "Newark",
@@ -182,12 +1101,44 @@ function createStore(config) {
     config.isActive !== undefined ? config.isActive : true;
 }
 
-createStore(storeConfig);</code></pre></div></div>
-</section><section data-id="838eb8197c7badf6aa9eaef1cef78f93"><div class="sl-block" data-block-type="text" style="width: 1161px; left: 59.5px; top: 35px; height: auto;" data-block-id="e26ebffb187277a6c6fd1d57a4c6e82e"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 10;">
-<h2>Use Object.assign for default objects(2)</h2>
-</div></div>
+createStore(storeConfig);</code></pre>
+            </div>
+          </div>
+        </section>
+        <section data-id="838eb8197c7badf6aa9eaef1cef78f93">
+          <div
+            class="sl-block"
+            data-block-type="text"
+            style="width: 1161px; left: 59.5px; top: 35px; height: auto"
+            data-block-id="e26ebffb187277a6c6fd1d57a4c6e82e"
+          >
+            <div
+              class="sl-block-content"
+              data-placeholder-tag="h2"
+              data-placeholder-text="Title Text"
+              style="z-index: 10"
+            >
+              <h2>Use Object.assign for default objects(2)</h2>
+            </div>
+          </div>
 
-<div class="sl-block" data-block-type="code" style="width: 1280px; height: 582px; left: 0px; top: 138px;" data-name="code-d576c7" data-block-id="6cb00a1f6597b57390f769172e81243e"><div class="sl-block-content notranslate" data-highlight-theme="monokai" data-code-frame="none" style="z-index: 12;"><pre style="font-size: 21px; line-height: 25px;" class="javascript"><code>// MUCH BETTER
+          <div
+            class="sl-block"
+            data-block-type="code"
+            style="width: 1280px; height: 582px; left: 0px; top: 138px"
+            data-name="code-d576c7"
+            data-block-id="6cb00a1f6597b57390f769172e81243e"
+          >
+            <div
+              class="sl-block-content notranslate"
+              data-highlight-theme="monokai"
+              data-code-frame="none"
+              style="z-index: 12"
+            >
+              <pre
+                style="font-size: 21px; line-height: 25px"
+                class="javascript"
+              ><code>// MUCH BETTER
 const storeConfig = {
   name: "Hyvee",
   //No location provided
@@ -210,26 +1161,111 @@ function createStore(config) {
 }
 
 createStore(storeConfig);
-</code></pre></div></div></section><section data-id="d8312904328c9df428b9a7428e17103b"><div class="sl-block" data-block-type="text" style="width: 1076px; left: 102px; top: 43px; height: auto;" data-block-id="3fb93eb848ec9df7f0afb8b582996392"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 10;">
-<h2>Use explanatory variables</h2>
-</div></div>
-<div class="sl-block" data-block-type="code" data-name="code-595252" style="width: 1280px; height: 240.5px; left: 0px; top: 167.75px;" data-block-id="9858832c3582283ef90ff2969968ee3f"><div class="sl-block-content notranslate" data-highlight-theme="monokai" data-code-frame="none" style="z-index: 11;"><pre style="font-size: 26px; line-height: 31px;" class="javascript"><code>// NOT SO CLEAN
+</code></pre>
+            </div>
+          </div>
+        </section>
+        <section data-id="d8312904328c9df428b9a7428e17103b">
+          <div
+            class="sl-block"
+            data-block-type="text"
+            style="width: 1076px; left: 102px; top: 43px; height: auto"
+            data-block-id="3fb93eb848ec9df7f0afb8b582996392"
+          >
+            <div
+              class="sl-block-content"
+              data-placeholder-tag="h2"
+              data-placeholder-text="Title Text"
+              style="z-index: 10"
+            >
+              <h2>Use explanatory variables</h2>
+            </div>
+          </div>
+          <div
+            class="sl-block"
+            data-block-type="code"
+            data-name="code-595252"
+            style="width: 1280px; height: 240.5px; left: 0px; top: 167.75px"
+            data-block-id="9858832c3582283ef90ff2969968ee3f"
+          >
+            <div
+              class="sl-block-content notranslate"
+              data-highlight-theme="monokai"
+              data-code-frame="none"
+              style="z-index: 11"
+            >
+              <pre
+                style="font-size: 26px; line-height: 31px"
+                class="javascript"
+              ><code>// NOT SO CLEAN
 const address = "Terminal Way, Kansas City 64112";
 const cityZipCodeRegex = /^[^,\\]+[,\\\s]+(.+?)\s*(\d{5})?$/;
 validateCityZipCode(
   address.match(cityZipCodeRegex)[1],
   address.match(cityZipCodeRegex)[2]
 );
-</code></pre></div></div>
-<div class="sl-block" data-block-type="code" style="width: 1280px; height: 194px; left: 0px; top: 479px;" data-name="code-d576c7" data-block-id="f7f884692d3c97a497d0a2fc342718ba"><div class="sl-block-content notranslate fragment" data-highlight-theme="monokai" data-code-frame="none" style="z-index: 12;" data-fragment-index="0"><pre style="font-size: 26px; line-height: 31px;" class="javascript"><code>// MUCH BETTER
+</code></pre>
+            </div>
+          </div>
+          <div
+            class="sl-block"
+            data-block-type="code"
+            style="width: 1280px; height: 194px; left: 0px; top: 479px"
+            data-name="code-d576c7"
+            data-block-id="f7f884692d3c97a497d0a2fc342718ba"
+          >
+            <div
+              class="sl-block-content notranslate fragment"
+              data-highlight-theme="monokai"
+              data-code-frame="none"
+              style="z-index: 12"
+              data-fragment-index="0"
+            >
+              <pre
+                style="font-size: 26px; line-height: 31px"
+                class="javascript"
+              ><code>// MUCH BETTER
 const address = "Terminal Way, Kansas City 64112";
 const cityZipCodeRegex = /^[^,\\]+[,\\\s]+(.+?)\s*(\d{5})?$/;
 const [_, city, zipCode] = address.match(cityZipCodeRegex) ?? [];
 validateCityZipCode(city, zipCode);
-</code></pre></div></div></section><section data-id="08755185851e2068ecd75f80445c06ac"><div class="sl-block" data-block-type="text" style="width: 1076px; left: 102px; top: 43px; height: auto;" data-block-id="d9083932aa152d712c1ff89cba39fbb5"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 10;">
-<h2>Functions should do one thing</h2>
-</div></div>
-<div class="sl-block" data-block-type="code" data-name="code-595252" style="width: 1280px; height: 266.5px; left: 0px; top: 144px;" data-block-id="85268409525c9d285aedd21d1f5d4bdb"><div class="sl-block-content notranslate" data-highlight-theme="monokai" data-code-frame="none" style="z-index: 11;"><pre style="font-size: 23px; line-height: 28px;" class="javascript"><code>// NOT SO CLEAN
+</code></pre>
+            </div>
+          </div>
+        </section>
+        <section data-id="08755185851e2068ecd75f80445c06ac">
+          <div
+            class="sl-block"
+            data-block-type="text"
+            style="width: 1076px; left: 102px; top: 43px; height: auto"
+            data-block-id="d9083932aa152d712c1ff89cba39fbb5"
+          >
+            <div
+              class="sl-block-content"
+              data-placeholder-tag="h2"
+              data-placeholder-text="Title Text"
+              style="z-index: 10"
+            >
+              <h2>Functions should do one thing</h2>
+            </div>
+          </div>
+          <div
+            class="sl-block"
+            data-block-type="code"
+            data-name="code-595252"
+            style="width: 1280px; height: 266.5px; left: 0px; top: 144px"
+            data-block-id="85268409525c9d285aedd21d1f5d4bdb"
+          >
+            <div
+              class="sl-block-content notranslate"
+              data-highlight-theme="monokai"
+              data-code-frame="none"
+              style="z-index: 11"
+            >
+              <pre
+                style="font-size: 23px; line-height: 28px"
+                class="javascript"
+              ><code>// NOT SO CLEAN
 function notifyGroceryStores(groceryStores) {
   groceryStores.forEach(groceryStore =&gt; {
     const groceryStoreRecord = database.lookup(groceryStore);
@@ -238,8 +1274,27 @@ function notifyGroceryStores(groceryStores) {
     }
   });
 }
-</code></pre></div></div>
-<div class="sl-block" data-block-type="code" style="width: 1280px; height: 295px; left: 0px; top: 425px;" data-name="code-d576c7" data-block-id="a5dffd4dcdf8cfb4502200f59bae1a25"><div class="sl-block-content notranslate fragment" data-highlight-theme="monokai" data-code-frame="none" style="z-index: 12;" data-fragment-index="0"><pre style="font-size: 26px; line-height: 31px;" class="javascript"><code>// MUCH BETTER
+</code></pre>
+            </div>
+          </div>
+          <div
+            class="sl-block"
+            data-block-type="code"
+            style="width: 1280px; height: 295px; left: 0px; top: 425px"
+            data-name="code-d576c7"
+            data-block-id="a5dffd4dcdf8cfb4502200f59bae1a25"
+          >
+            <div
+              class="sl-block-content notranslate fragment"
+              data-highlight-theme="monokai"
+              data-code-frame="none"
+              style="z-index: 12"
+              data-fragment-index="0"
+            >
+              <pre
+                style="font-size: 26px; line-height: 31px"
+                class="javascript"
+              ><code>// MUCH BETTER
 function notifyActiveGroceryStores(groceryStores) {
   groceryStores.filter(isActiveGroceryStore).forEach(notify);
 }
@@ -248,10 +1303,43 @@ function isActiveGroceryStore(groceryStore) {
   const groceryStoreRecord = database.lookup(groceryStore);
   return groceryStoreRecord.isActive();
 }
-</code></pre></div></div></section><section data-id="6d43f3752824e48e6405aad6e91c1e6d"><div class="sl-block" data-block-type="text" style="width: 1178px; left: 51px; top: 35px; height: auto;" data-block-id="6bda18112f5714325d6c3c6429771e47"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 10;">
-<h2>Avoid using flags as function parameters</h2>
-</div></div>
-<div class="sl-block" data-block-type="code" data-name="code-595252" style="width: 1280px; height: 266.5px; left: 0px; top: 144px;" data-block-id="7ec9a803318d7f14a4b09c51cafa8c52"><div class="sl-block-content notranslate" data-highlight-theme="monokai" data-code-frame="none" style="z-index: 11;"><pre style="font-size: 23px; line-height: 28px;" class="javascript"><code>// NOT SO CLEAN
+</code></pre>
+            </div>
+          </div>
+        </section>
+        <section data-id="6d43f3752824e48e6405aad6e91c1e6d">
+          <div
+            class="sl-block"
+            data-block-type="text"
+            style="width: 1178px; left: 51px; top: 35px; height: auto"
+            data-block-id="6bda18112f5714325d6c3c6429771e47"
+          >
+            <div
+              class="sl-block-content"
+              data-placeholder-tag="h2"
+              data-placeholder-text="Title Text"
+              style="z-index: 10"
+            >
+              <h2>Avoid using flags as function parameters</h2>
+            </div>
+          </div>
+          <div
+            class="sl-block"
+            data-block-type="code"
+            data-name="code-595252"
+            style="width: 1280px; height: 266.5px; left: 0px; top: 144px"
+            data-block-id="7ec9a803318d7f14a4b09c51cafa8c52"
+          >
+            <div
+              class="sl-block-content notranslate"
+              data-highlight-theme="monokai"
+              data-code-frame="none"
+              style="z-index: 11"
+            >
+              <pre
+                style="font-size: 23px; line-height: 28px"
+                class="javascript"
+              ><code>// NOT SO CLEAN
 function createFile(name, temp) {
   if (temp) {
     fs.create(`./temp/${name}`);
@@ -259,8 +1347,27 @@ function createFile(name, temp) {
     fs.create(name);
   }
 }
-</code></pre></div></div>
-<div class="sl-block" data-block-type="code" style="width: 1280px; height: 295px; left: 0px; top: 425px;" data-name="code-d576c7" data-block-id="10a0baa520a4fefce57adb6380aed3cd"><div class="sl-block-content notranslate fragment" data-highlight-theme="monokai" data-code-frame="none" style="z-index: 12;" data-fragment-index="0"><pre style="font-size: 26px; line-height: 31px;" class="javascript"><code>// MUCH BETTER
+</code></pre>
+            </div>
+          </div>
+          <div
+            class="sl-block"
+            data-block-type="code"
+            style="width: 1280px; height: 295px; left: 0px; top: 425px"
+            data-name="code-d576c7"
+            data-block-id="10a0baa520a4fefce57adb6380aed3cd"
+          >
+            <div
+              class="sl-block-content notranslate fragment"
+              data-highlight-theme="monokai"
+              data-code-frame="none"
+              style="z-index: 12"
+              data-fragment-index="0"
+            >
+              <pre
+                style="font-size: 26px; line-height: 31px"
+                class="javascript"
+              ><code>// MUCH BETTER
 function createFile(name) {
   fs.create(name);
 }
@@ -268,10 +1375,43 @@ function createFile(name) {
 function createTempFile(name) {
   createFile(`./temp/${name}`);
 }
-</code></pre></div></div></section><section data-id="529dd20ac7fcfeba0eb90488c95580b3"><div class="sl-block" data-block-type="text" style="width: 1178px; left: 51px; top: 35px; height: auto;" data-block-id="01e8671102f5c32a54f7ac096eb2281b"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 10;">
-<h2>Avoid side effects (1)</h2>
-</div></div>
-<div class="sl-block" data-block-type="code" data-name="code-595252" style="width: 1280px; height: 266.5px; left: 0px; top: 144px;" data-block-id="1a7eb3bff12e9182d0570c4b5794f9e0"><div class="sl-block-content notranslate" data-highlight-theme="monokai" data-code-frame="none" style="z-index: 11;"><pre style="font-size: 21px; line-height: 25px;" class="javascript"><code>// NOT SO CLEAN
+</code></pre>
+            </div>
+          </div>
+        </section>
+        <section data-id="529dd20ac7fcfeba0eb90488c95580b3">
+          <div
+            class="sl-block"
+            data-block-type="text"
+            style="width: 1178px; left: 51px; top: 35px; height: auto"
+            data-block-id="01e8671102f5c32a54f7ac096eb2281b"
+          >
+            <div
+              class="sl-block-content"
+              data-placeholder-tag="h2"
+              data-placeholder-text="Title Text"
+              style="z-index: 10"
+            >
+              <h2>Avoid side effects (1)</h2>
+            </div>
+          </div>
+          <div
+            class="sl-block"
+            data-block-type="code"
+            data-name="code-595252"
+            style="width: 1280px; height: 266.5px; left: 0px; top: 144px"
+            data-block-id="1a7eb3bff12e9182d0570c4b5794f9e0"
+          >
+            <div
+              class="sl-block-content notranslate"
+              data-highlight-theme="monokai"
+              data-code-frame="none"
+              style="z-index: 11"
+            >
+              <pre
+                style="font-size: 21px; line-height: 25px"
+                class="javascript"
+              ><code>// NOT SO CLEAN
 let animalName = "cat";
 
 function replaceFirstLetterInAnimalName() {
@@ -281,8 +1421,27 @@ function replaceFirstLetterInAnimalName() {
 replaceFirstLetterInAnimalName();
 
 console.log(animalName); // 'rat';
-</code></pre></div></div>
-<div class="sl-block" data-block-type="code" style="width: 1280px; height: 295px; left: 0px; top: 425px;" data-name="code-d576c7" data-block-id="c014071d27dadb5714e7c3beff19b76e"><div class="sl-block-content notranslate fragment" data-highlight-theme="monokai" data-code-frame="none" style="z-index: 12;" data-fragment-index="0"><pre style="font-size: 22px; line-height: 26px;" class="javascript"><code>// MUCH BETTER
+</code></pre>
+            </div>
+          </div>
+          <div
+            class="sl-block"
+            data-block-type="code"
+            style="width: 1280px; height: 295px; left: 0px; top: 425px"
+            data-name="code-d576c7"
+            data-block-id="c014071d27dadb5714e7c3beff19b76e"
+          >
+            <div
+              class="sl-block-content notranslate fragment"
+              data-highlight-theme="monokai"
+              data-code-frame="none"
+              style="z-index: 12"
+              data-fragment-index="0"
+            >
+              <pre
+                style="font-size: 22px; line-height: 26px"
+                class="javascript"
+              ><code>// MUCH BETTER
 function replaceFirstLetterInAnimalName(name) {
   return name.replace(/^./, 'r');
 }
@@ -292,27 +1451,131 @@ const modifiedAnimalName = replaceFirstLetterInAnimalName(animalName);
 
 console.log(animalName); // 'cat'
 console.log(modifiedAnimalName); // 'rat';
-</code></pre></div></div></section><section data-id="b56aa2abdc3d5fced4643a6d9fc0cdfa"><div class="sl-block" data-block-type="text" style="width: 1178px; left: 51px; top: 35px; height: auto;" data-block-id="0bd2e3ec848ca736d07b6d065a6c5487"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 10;">
-<h2>Avoid side effects (2)</h2>
-</div></div>
-<div class="sl-block" data-block-type="code" data-name="code-595252" style="width: 1280px; height: 167.5px; left: 0px; top: 204.25px;" data-block-id="e89e62ca2db4dd42b2b79b348b3aed0e"><div class="sl-block-content notranslate" data-highlight-theme="monokai" data-code-frame="none" style="z-index: 11;"><pre style="font-size: 26px; line-height: 31px;" class="javascript"><code>// NOT SO CLEAN
+</code></pre>
+            </div>
+          </div>
+        </section>
+        <section data-id="b56aa2abdc3d5fced4643a6d9fc0cdfa">
+          <div
+            class="sl-block"
+            data-block-type="text"
+            style="width: 1178px; left: 51px; top: 35px; height: auto"
+            data-block-id="0bd2e3ec848ca736d07b6d065a6c5487"
+          >
+            <div
+              class="sl-block-content"
+              data-placeholder-tag="h2"
+              data-placeholder-text="Title Text"
+              style="z-index: 10"
+            >
+              <h2>Avoid side effects (2)</h2>
+            </div>
+          </div>
+          <div
+            class="sl-block"
+            data-block-type="code"
+            data-name="code-595252"
+            style="width: 1280px; height: 167.5px; left: 0px; top: 204.25px"
+            data-block-id="e89e62ca2db4dd42b2b79b348b3aed0e"
+          >
+            <div
+              class="sl-block-content notranslate"
+              data-highlight-theme="monokai"
+              data-code-frame="none"
+              style="z-index: 11"
+            >
+              <pre
+                style="font-size: 26px; line-height: 31px"
+                class="javascript"
+              ><code>// NOT SO CLEAN
 const addItemToList = (list, item) =&gt; {
   list.push({ item, date: Date.now() });
 };
-</code></pre></div></div>
-<div class="sl-block" data-block-type="code" style="width: 1280px; height: 157px; left: 0px; top: 425.5px;" data-name="code-d576c7" data-block-id="3cc4b93a93e888381729b1e32db0a2ca"><div class="sl-block-content notranslate fragment" data-highlight-theme="monokai" data-code-frame="none" style="z-index: 12;" data-fragment-index="0"><pre style="font-size: 26px; line-height: 31px;" class="javascript"><code>// MUCH BETTER
+</code></pre>
+            </div>
+          </div>
+          <div
+            class="sl-block"
+            data-block-type="code"
+            style="width: 1280px; height: 157px; left: 0px; top: 425.5px"
+            data-name="code-d576c7"
+            data-block-id="3cc4b93a93e888381729b1e32db0a2ca"
+          >
+            <div
+              class="sl-block-content notranslate fragment"
+              data-highlight-theme="monokai"
+              data-code-frame="none"
+              style="z-index: 12"
+              data-fragment-index="0"
+            >
+              <pre
+                style="font-size: 26px; line-height: 31px"
+                class="javascript"
+              ><code>// MUCH BETTER
 const addItemToList = (list, item) =&gt; {
   return [...list, { item, date: Date.now() }];
 };
-</code></pre></div></div></section><section data-id="f1ebc430db169129c65aef10aed4afd5"><div class="sl-block" data-block-type="text" style="width: 1178px; left: 51px; top: 35px; height: auto;" data-block-id="a4b74ac16a9a03c7fdbfa8eb99503b88"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 10;">
-<h2>Encapsulate conditionals</h2>
-</div></div>
-<div class="sl-block" data-block-type="code" data-name="code-595252" style="width: 1280px; height: 167.5px; left: 0px; top: 204.25px;" data-block-id="4e223922db6a2e03d924fc2d789cf338"><div class="sl-block-content notranslate" data-highlight-theme="monokai" data-code-frame="none" style="z-index: 11;"><pre style="font-size: 26px; line-height: 31px;" class="javascript"><code>// NOT SO CLEAN
+</code></pre>
+            </div>
+          </div>
+        </section>
+        <section data-id="f1ebc430db169129c65aef10aed4afd5">
+          <div
+            class="sl-block"
+            data-block-type="text"
+            style="width: 1178px; left: 51px; top: 35px; height: auto"
+            data-block-id="a4b74ac16a9a03c7fdbfa8eb99503b88"
+          >
+            <div
+              class="sl-block-content"
+              data-placeholder-tag="h2"
+              data-placeholder-text="Title Text"
+              style="z-index: 10"
+            >
+              <h2>Encapsulate conditionals</h2>
+            </div>
+          </div>
+          <div
+            class="sl-block"
+            data-block-type="code"
+            data-name="code-595252"
+            style="width: 1280px; height: 167.5px; left: 0px; top: 204.25px"
+            data-block-id="4e223922db6a2e03d924fc2d789cf338"
+          >
+            <div
+              class="sl-block-content notranslate"
+              data-highlight-theme="monokai"
+              data-code-frame="none"
+              style="z-index: 11"
+            >
+              <pre
+                style="font-size: 26px; line-height: 31px"
+                class="javascript"
+              ><code>// NOT SO CLEAN
 if (state === "loading" &amp;&amp; isEmpty(data)) {
   // ...
 }
-</code></pre></div></div>
-<div class="sl-block" data-block-type="code" style="width: 1280px; height: 267px; left: 0px; top: 425.5px;" data-name="code-d576c7" data-block-id="d7305724819f48afeddda0e24e748640"><div class="sl-block-content notranslate fragment" data-highlight-theme="monokai" data-code-frame="none" style="z-index: 12;" data-fragment-index="0"><pre style="font-size: 26px; line-height: 31px;" class="javascript"><code>// MUCH BETTER
+</code></pre>
+            </div>
+          </div>
+          <div
+            class="sl-block"
+            data-block-type="code"
+            style="width: 1280px; height: 267px; left: 0px; top: 425.5px"
+            data-name="code-d576c7"
+            data-block-id="d7305724819f48afeddda0e24e748640"
+          >
+            <div
+              class="sl-block-content notranslate fragment"
+              data-highlight-theme="monokai"
+              data-code-frame="none"
+              style="z-index: 12"
+              data-fragment-index="0"
+            >
+              <pre
+                style="font-size: 26px; line-height: 31px"
+                class="javascript"
+              ><code>// MUCH BETTER
 function shouldShowLoadingSpinner(state, data) {
   return state === "loading" &amp;&amp; isEmpty(data);
 }
@@ -320,13 +1583,84 @@ function shouldShowLoadingSpinner(state, data) {
 if (shouldShowLoadingSpinner(state, data)) {
   // ...
 }
-</code></pre></div></div></section><section data-id="c9653f6d80023052ea8c55aa606c6766"><div class="sl-block" data-block-type="text" style="width: 1076px; left: 102px; top: 273.5px; height: auto;" data-block-id="533f5ea38b4735289aeb708c8ef2333d"><div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text" style="z-index: 10;">
-<h1>Conditionals</h1>
-</div></div>
-<div class="sl-block" data-block-type="image" data-name="image-21f499" data-block-id="4322d9f000b6c846a8105740403e4ebd" style="width: 106.4px; height: 106.4px; left: 266.8px; top: 268.8px; min-width: 1px; min-height: 1px;"><div class="sl-block-content" style="z-index: 11;"><img style="" data-natural-width="200" data-natural-height="200" data-lazy-loaded="" data-src="10-ways-to-write-clean-javascript-code/db1b00fce9ab30d40bc1135d157ac815.gif"></div></div></section><section data-id="6e1fe3f8c1af96660228298a4113e3ad"><div class="sl-block" data-block-type="text" style="width: 1178px; left: 51px; top: 35px; height: auto;" data-block-id="b94d7a4e63b70097628b6eaf3dde07f9"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 10;">
-<h2>Avoid negative conditionals</h2>
-</div></div>
-<div class="sl-block" data-block-type="code" data-name="code-595252" style="width: 1280px; height: 268.75px; left: 0px; top: 163.25px;" data-block-id="7c9b97f369b20cb5e55d160f2d0a7646"><div class="sl-block-content notranslate" data-highlight-theme="monokai" data-code-frame="none" style="z-index: 11;"><pre style="font-size: 26px; line-height: 31px;" class="javascript"><code>// NOT SO CLEAN
+</code></pre>
+            </div>
+          </div>
+        </section>
+        <section data-id="c9653f6d80023052ea8c55aa606c6766">
+          <div
+            class="sl-block"
+            data-block-type="text"
+            style="width: 1076px; left: 102px; top: 273.5px; height: auto"
+            data-block-id="533f5ea38b4735289aeb708c8ef2333d"
+          >
+            <div
+              class="sl-block-content"
+              data-placeholder-tag="h1"
+              data-placeholder-text="Title Text"
+              style="z-index: 10"
+            >
+              <h1>Conditionals</h1>
+            </div>
+          </div>
+          <div
+            class="sl-block"
+            data-block-type="image"
+            data-name="image-21f499"
+            data-block-id="4322d9f000b6c846a8105740403e4ebd"
+            style="
+              width: 106.4px;
+              height: 106.4px;
+              left: 266.8px;
+              top: 268.8px;
+              min-width: 1px;
+              min-height: 1px;
+            "
+          >
+            <div class="sl-block-content" style="z-index: 11">
+              <img
+                style=""
+                data-natural-width="200"
+                data-natural-height="200"
+                data-lazy-loaded=""
+                data-src="10-ways-to-write-clean-javascript-code/db1b00fce9ab30d40bc1135d157ac815.gif"
+              />
+            </div>
+          </div>
+        </section>
+        <section data-id="6e1fe3f8c1af96660228298a4113e3ad">
+          <div
+            class="sl-block"
+            data-block-type="text"
+            style="width: 1178px; left: 51px; top: 35px; height: auto"
+            data-block-id="b94d7a4e63b70097628b6eaf3dde07f9"
+          >
+            <div
+              class="sl-block-content"
+              data-placeholder-tag="h2"
+              data-placeholder-text="Title Text"
+              style="z-index: 10"
+            >
+              <h2>Avoid negative conditionals</h2>
+            </div>
+          </div>
+          <div
+            class="sl-block"
+            data-block-type="code"
+            data-name="code-595252"
+            style="width: 1280px; height: 268.75px; left: 0px; top: 163.25px"
+            data-block-id="7c9b97f369b20cb5e55d160f2d0a7646"
+          >
+            <div
+              class="sl-block-content notranslate"
+              data-highlight-theme="monokai"
+              data-code-frame="none"
+              style="z-index: 11"
+            >
+              <pre
+                style="font-size: 26px; line-height: 31px"
+                class="javascript"
+              ><code>// NOT SO CLEAN
 function isAddressNotVerified(address) {
   // ...
 }
@@ -334,18 +1668,70 @@ function isAddressNotVerified(address) {
 if (!isAddressNotVerified(address)) {
   // ...
 }
-</code></pre></div></div>
-<div class="sl-block" data-block-type="code" style="width: 1280px; height: 267px; left: 0px; top: 453px;" data-name="code-d576c7" data-block-id="c928133b2be7724ed801f456ee373cf1"><div class="sl-block-content notranslate fragment" data-highlight-theme="monokai" data-code-frame="none" style="z-index: 12;" data-fragment-index="0"><pre style="font-size: 26px; line-height: 31px;" class="javascript"><code>// MUCH BETTER
+</code></pre>
+            </div>
+          </div>
+          <div
+            class="sl-block"
+            data-block-type="code"
+            style="width: 1280px; height: 267px; left: 0px; top: 453px"
+            data-name="code-d576c7"
+            data-block-id="c928133b2be7724ed801f456ee373cf1"
+          >
+            <div
+              class="sl-block-content notranslate fragment"
+              data-highlight-theme="monokai"
+              data-code-frame="none"
+              style="z-index: 12"
+              data-fragment-index="0"
+            >
+              <pre
+                style="font-size: 26px; line-height: 31px"
+                class="javascript"
+              ><code>// MUCH BETTER
 function isAddressVerified(address) {
   // ...
 }
 
 if (isAddressVerified(address)) {
   // ...
-}</code></pre></div></div></section><section data-id="bc3c11f42465f9b32bc3cf840664d2de"><div class="sl-block" data-block-type="text" style="width: 1178px; left: 51px; top: 35px; height: auto;" data-block-id="06c8f136f6da5c44d259d3142a03e1f3"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 10;">
-<h2>Use optional chaining</h2>
-</div></div>
-<div class="sl-block" data-block-type="code" data-name="code-595252" style="width: 1280px; height: 407.75px; left: 0px; top: 120.25px;" data-block-id="c0accdfdfd8b6a3385b5be2c65cde31f"><div class="sl-block-content notranslate" data-highlight-theme="monokai" data-code-frame="none" style="z-index: 11;"><pre style="font-size: 27px; line-height: 32px;" class="javascript"><code>// NOT SO CLEAN
+}</code></pre>
+            </div>
+          </div>
+        </section>
+        <section data-id="bc3c11f42465f9b32bc3cf840664d2de">
+          <div
+            class="sl-block"
+            data-block-type="text"
+            style="width: 1178px; left: 51px; top: 35px; height: auto"
+            data-block-id="06c8f136f6da5c44d259d3142a03e1f3"
+          >
+            <div
+              class="sl-block-content"
+              data-placeholder-tag="h2"
+              data-placeholder-text="Title Text"
+              style="z-index: 10"
+            >
+              <h2>Use optional chaining</h2>
+            </div>
+          </div>
+          <div
+            class="sl-block"
+            data-block-type="code"
+            data-name="code-595252"
+            style="width: 1280px; height: 407.75px; left: 0px; top: 120.25px"
+            data-block-id="c0accdfdfd8b6a3385b5be2c65cde31f"
+          >
+            <div
+              class="sl-block-content notranslate"
+              data-highlight-theme="monokai"
+              data-code-frame="none"
+              style="z-index: 11"
+            >
+              <pre
+                style="font-size: 27px; line-height: 32px"
+                class="javascript"
+              ><code>// NOT SO CLEAN
 const email = (user &amp;&amp; user.email) ?? "";
 const street =
   (user &amp;&amp;
@@ -357,14 +1743,66 @@ const state =
     user.address &amp;&amp;
     user.address.state) ??
   "";
-</code></pre></div></div>
-<div class="sl-block" data-block-type="code" style="width: 1280px; height: 166px; left: 0px; top: 554px;" data-name="code-d576c7" data-block-id="518c8ce51541850924ec50fe6ec663cd"><div class="sl-block-content notranslate fragment" data-highlight-theme="monokai" data-code-frame="none" style="z-index: 12;" data-fragment-index="0"><pre style="font-size: 27px; line-height: 32px;" class="javascript"><code>// MUCH BETTER
+</code></pre>
+            </div>
+          </div>
+          <div
+            class="sl-block"
+            data-block-type="code"
+            style="width: 1280px; height: 166px; left: 0px; top: 554px"
+            data-name="code-d576c7"
+            data-block-id="518c8ce51541850924ec50fe6ec663cd"
+          >
+            <div
+              class="sl-block-content notranslate fragment"
+              data-highlight-theme="monokai"
+              data-code-frame="none"
+              style="z-index: 12"
+              data-fragment-index="0"
+            >
+              <pre
+                style="font-size: 27px; line-height: 32px"
+                class="javascript"
+              ><code>// MUCH BETTER
 const email = user?.email ?? "";
 const street = user?.address?.street ?? "";
-const state = user?.address?.state ?? "";</code></pre></div></div></section><section data-id="f3e18ea1a2a371b10528c71eb7f4d7c8"><div class="sl-block" data-block-type="text" style="width: 1178px; left: 51px; top: 35px; height: auto;" data-block-id="d1cd777b9164f297c948521771cba8f1"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 10;">
-<h2>Use shorthand whenever possible</h2>
-</div></div>
-<div class="sl-block" data-block-type="code" data-name="code-595252" style="width: 1280px; height: 268.75px; left: 0px; top: 163.25px;" data-block-id="7b8e943e8c174bb151a02d72da917dd9"><div class="sl-block-content notranslate" data-highlight-theme="monokai" data-code-frame="none" style="z-index: 11;"><pre style="font-size: 21px; line-height: 25px;" class="javascript"><code>// NOT SO CLEAN
+const state = user?.address?.state ?? "";</code></pre>
+            </div>
+          </div>
+        </section>
+        <section data-id="f3e18ea1a2a371b10528c71eb7f4d7c8">
+          <div
+            class="sl-block"
+            data-block-type="text"
+            style="width: 1178px; left: 51px; top: 35px; height: auto"
+            data-block-id="d1cd777b9164f297c948521771cba8f1"
+          >
+            <div
+              class="sl-block-content"
+              data-placeholder-tag="h2"
+              data-placeholder-text="Title Text"
+              style="z-index: 10"
+            >
+              <h2>Use shorthand whenever possible</h2>
+            </div>
+          </div>
+          <div
+            class="sl-block"
+            data-block-type="code"
+            data-name="code-595252"
+            style="width: 1280px; height: 268.75px; left: 0px; top: 163.25px"
+            data-block-id="7b8e943e8c174bb151a02d72da917dd9"
+          >
+            <div
+              class="sl-block-content notranslate"
+              data-highlight-theme="monokai"
+              data-code-frame="none"
+              style="z-index: 11"
+            >
+              <pre
+                style="font-size: 21px; line-height: 25px"
+                class="javascript"
+              ><code>// NOT SO CLEAN
 if (isActive === true) {
   // ...
 }
@@ -374,8 +1812,27 @@ if (name !== "" &amp;&amp; name !== null &amp;&amp; name !== undefined) {
 }
 
 const isUserEligible = user.isVerified() &amp;&amp; user.didSubscribe() ? true : false;
-</code></pre></div></div>
-<div class="sl-block" data-block-type="code" style="width: 1280px; height: 267px; left: 0px; top: 453px;" data-name="code-d576c7" data-block-id="00874a5847992533eb0d74ab6d367547"><div class="sl-block-content notranslate fragment" data-highlight-theme="monokai" data-code-frame="none" style="z-index: 12;" data-fragment-index="0"><pre style="font-size: 21px; line-height: 25px;" class="javascript"><code>// MUCH BETTER
+</code></pre>
+            </div>
+          </div>
+          <div
+            class="sl-block"
+            data-block-type="code"
+            style="width: 1280px; height: 267px; left: 0px; top: 453px"
+            data-name="code-d576c7"
+            data-block-id="00874a5847992533eb0d74ab6d367547"
+          >
+            <div
+              class="sl-block-content notranslate fragment"
+              data-highlight-theme="monokai"
+              data-code-frame="none"
+              style="z-index: 12"
+              data-fragment-index="0"
+            >
+              <pre
+                style="font-size: 21px; line-height: 25px"
+                class="javascript"
+              ><code>// MUCH BETTER
 if (isActive) {
   // ...
 }
@@ -384,10 +1841,43 @@ if (!!name) {
   // ...
 }
 
-const isUserEligible = user.isVerified() &amp;&amp; user.didSubscribe();</code></pre></div></div></section><section data-id="f98df87bf293a224f604700a66c7bd28"><div class="sl-block" data-block-type="text" style="width: 1178px; left: 51px; top: 35px; height: auto;" data-block-id="7e5c90fe2012014f355f720d9e871ba6"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 10;">
-<h2>Return early (1)</h2>
-</div></div>
-<div class="sl-block" data-block-type="code" data-name="code-595252" style="width: 1280px; height: 556.75px; left: 0px; top: 163.25px;" data-block-id="1885b61def9b67526b890fff4a8b2a7c"><div class="sl-block-content notranslate" data-highlight-theme="monokai" data-code-frame="none" style="z-index: 11;"><pre style="font-size: 24px; line-height: 29px;" class="javascript"><code>// NOT SO CLEAN
+const isUserEligible = user.isVerified() &amp;&amp; user.didSubscribe();</code></pre>
+            </div>
+          </div>
+        </section>
+        <section data-id="f98df87bf293a224f604700a66c7bd28">
+          <div
+            class="sl-block"
+            data-block-type="text"
+            style="width: 1178px; left: 51px; top: 35px; height: auto"
+            data-block-id="7e5c90fe2012014f355f720d9e871ba6"
+          >
+            <div
+              class="sl-block-content"
+              data-placeholder-tag="h2"
+              data-placeholder-text="Title Text"
+              style="z-index: 10"
+            >
+              <h2>Return early (1)</h2>
+            </div>
+          </div>
+          <div
+            class="sl-block"
+            data-block-type="code"
+            data-name="code-595252"
+            style="width: 1280px; height: 556.75px; left: 0px; top: 163.25px"
+            data-block-id="1885b61def9b67526b890fff4a8b2a7c"
+          >
+            <div
+              class="sl-block-content notranslate"
+              data-highlight-theme="monokai"
+              data-code-frame="none"
+              style="z-index: 11"
+            >
+              <pre
+                style="font-size: 24px; line-height: 29px"
+                class="javascript"
+              ><code>// NOT SO CLEAN
  function Todos() {
    const { isLoading, isError, data, error } = useQuery('todos', fetchTodoList)
  
@@ -405,12 +1895,44 @@ const isUserEligible = user.isVerified() &amp;&amp; user.didSubscribe();</code><
      &lt;/&gt;
    )
  }
-</code></pre></div></div>
-</section><section data-id="6ee44baf425951fd86a4122381b59f5c"><div class="sl-block" data-block-type="text" style="width: 1178px; left: 51px; top: 35px; height: auto;" data-block-id="7b24958e74935427d5d904282b4d925f"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 10;">
-<h2>Return early (2)</h2>
-</div></div>
+</code></pre>
+            </div>
+          </div>
+        </section>
+        <section data-id="6ee44baf425951fd86a4122381b59f5c">
+          <div
+            class="sl-block"
+            data-block-type="text"
+            style="width: 1178px; left: 51px; top: 35px; height: auto"
+            data-block-id="7b24958e74935427d5d904282b4d925f"
+          >
+            <div
+              class="sl-block-content"
+              data-placeholder-tag="h2"
+              data-placeholder-text="Title Text"
+              style="z-index: 10"
+            >
+              <h2>Return early (2)</h2>
+            </div>
+          </div>
 
-<div class="sl-block" data-block-type="code" style="width: 1280px; height: 576px; left: 0px; top: 144px;" data-name="code-d576c7" data-block-id="45dc557e41cc30dce4fb1efdf6cc9f96"><div class="sl-block-content notranslate" data-highlight-theme="monokai" data-code-frame="none" style="z-index: 12;"><pre style="font-size: 23px; line-height: 28px;" class="javascript"><code>// MUCH BETTER
+          <div
+            class="sl-block"
+            data-block-type="code"
+            style="width: 1280px; height: 576px; left: 0px; top: 144px"
+            data-name="code-d576c7"
+            data-block-id="45dc557e41cc30dce4fb1efdf6cc9f96"
+          >
+            <div
+              class="sl-block-content notranslate"
+              data-highlight-theme="monokai"
+              data-code-frame="none"
+              style="z-index: 12"
+            >
+              <pre
+                style="font-size: 23px; line-height: 28px"
+                class="javascript"
+              ><code>// MUCH BETTER
  function Todos() {
    const { isLoading, isError, data, error } = useQuery('todos', fetchTodoList)
  
@@ -429,13 +1951,84 @@ const isUserEligible = user.isVerified() &amp;&amp; user.didSubscribe();</code><
        ))}
      &lt;/ul&gt;
    )
- }</code></pre></div></div></section><section data-id="2e7bdd58399da626e0d2d460b5562c47"><div class="sl-block" data-block-type="text" style="width: 1076px; left: 102px; top: 274px; height: auto;" data-block-id="d8c79792fd542520a366ec3f7652f7b8"><div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text" style="z-index: 10;">
-<h1>Classes</h1>
-</div></div>
-<div class="sl-block" data-block-type="image" data-name="image-9ae3f6" data-block-id="7f250a60092c7b30fd4dbb51bc3da9b4" style="width: 106.4px; height: 106.4px; left: 340.6px; top: 269.3px; min-width: 1px; min-height: 1px;"><div class="sl-block-content" style="z-index: 11;"><img style="" data-natural-width="200" data-natural-height="200" data-lazy-loaded="" data-src="10-ways-to-write-clean-javascript-code/d7be7cf2b3692a15f1d2d6ac57d9f216.gif"></div></div></section><section data-id="211765da4f3d44cdf7e578a79e4c4b51"><div class="sl-block" data-block-type="text" style="width: 1178px; left: 51px; top: 35px; height: auto;" data-block-id="dda324e54d07890016b937d181cafcb2"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 10;">
-<h2>Prefer ES2015/ES6 classes (1)</h2>
-</div></div>
-<div class="sl-block" data-block-type="code" data-name="code-595252" style="width: 1280px; height: 591.75px; left: 0px; top: 128.25px;" data-block-id="57eaf2612ff0b7d959d7b23ba82730ca"><div class="sl-block-content notranslate" data-highlight-theme="monokai" data-code-frame="none" style="z-index: 11;"><pre style="font-size: 20px; line-height: 24px;" class="javascript"><code>// NOT SO CLEAN
+ }</code></pre>
+            </div>
+          </div>
+        </section>
+        <section data-id="2e7bdd58399da626e0d2d460b5562c47">
+          <div
+            class="sl-block"
+            data-block-type="text"
+            style="width: 1076px; left: 102px; top: 274px; height: auto"
+            data-block-id="d8c79792fd542520a366ec3f7652f7b8"
+          >
+            <div
+              class="sl-block-content"
+              data-placeholder-tag="h1"
+              data-placeholder-text="Title Text"
+              style="z-index: 10"
+            >
+              <h1>Classes</h1>
+            </div>
+          </div>
+          <div
+            class="sl-block"
+            data-block-type="image"
+            data-name="image-9ae3f6"
+            data-block-id="7f250a60092c7b30fd4dbb51bc3da9b4"
+            style="
+              width: 106.4px;
+              height: 106.4px;
+              left: 340.6px;
+              top: 269.3px;
+              min-width: 1px;
+              min-height: 1px;
+            "
+          >
+            <div class="sl-block-content" style="z-index: 11">
+              <img
+                style=""
+                data-natural-width="200"
+                data-natural-height="200"
+                data-lazy-loaded=""
+                data-src="10-ways-to-write-clean-javascript-code/d7be7cf2b3692a15f1d2d6ac57d9f216.gif"
+              />
+            </div>
+          </div>
+        </section>
+        <section data-id="211765da4f3d44cdf7e578a79e4c4b51">
+          <div
+            class="sl-block"
+            data-block-type="text"
+            style="width: 1178px; left: 51px; top: 35px; height: auto"
+            data-block-id="dda324e54d07890016b937d181cafcb2"
+          >
+            <div
+              class="sl-block-content"
+              data-placeholder-tag="h2"
+              data-placeholder-text="Title Text"
+              style="z-index: 10"
+            >
+              <h2>Prefer ES2015/ES6 classes (1)</h2>
+            </div>
+          </div>
+          <div
+            class="sl-block"
+            data-block-type="code"
+            data-name="code-595252"
+            style="width: 1280px; height: 591.75px; left: 0px; top: 128.25px"
+            data-block-id="57eaf2612ff0b7d959d7b23ba82730ca"
+          >
+            <div
+              class="sl-block-content notranslate"
+              data-highlight-theme="monokai"
+              data-code-frame="none"
+              style="z-index: 11"
+            >
+              <pre
+                style="font-size: 20px; line-height: 24px"
+                class="javascript"
+              ><code>// NOT SO CLEAN
 const Vehicle = function(make) {
   if (!(this instanceof Vehicle)) {
     throw new Error("Instantiate Vehicle with `new`");
@@ -458,12 +2051,44 @@ const Car = function(make, color) {
 Car.prototype = Object.create(Vehicle.prototype);
 Car.prototype.constructor = Car;
 Car.prototype.getColor = function getColor() {};
-</code></pre></div></div>
-</section><section data-id="0dc29aac394c834e67b3734abfad8c42"><div class="sl-block" data-block-type="text" style="width: 1178px; left: 51px; top: 35px; height: auto;" data-block-id="cffa8e11c9315d84d80389d9e26a8dbc"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 10;">
-<h2>Prefer ES2015/ES6 classes (2)</h2>
-</div></div>
+</code></pre>
+            </div>
+          </div>
+        </section>
+        <section data-id="0dc29aac394c834e67b3734abfad8c42">
+          <div
+            class="sl-block"
+            data-block-type="text"
+            style="width: 1178px; left: 51px; top: 35px; height: auto"
+            data-block-id="cffa8e11c9315d84d80389d9e26a8dbc"
+          >
+            <div
+              class="sl-block-content"
+              data-placeholder-tag="h2"
+              data-placeholder-text="Title Text"
+              style="z-index: 10"
+            >
+              <h2>Prefer ES2015/ES6 classes (2)</h2>
+            </div>
+          </div>
 
-<div class="sl-block" data-block-type="code" style="width: 1280px; height: 576px; left: 0px; top: 144px;" data-name="code-d576c7" data-block-id="238f25901197f390c536045e0871b0d2"><div class="sl-block-content notranslate" data-highlight-theme="monokai" data-code-frame="none" style="z-index: 11;"><pre style="font-size: 20px; line-height: 24px;" class="javascript"><code>// MUCH BETTER
+          <div
+            class="sl-block"
+            data-block-type="code"
+            style="width: 1280px; height: 576px; left: 0px; top: 144px"
+            data-name="code-d576c7"
+            data-block-id="238f25901197f390c536045e0871b0d2"
+          >
+            <div
+              class="sl-block-content notranslate"
+              data-highlight-theme="monokai"
+              data-code-frame="none"
+              style="z-index: 11"
+            >
+              <pre
+                style="font-size: 20px; line-height: 24px"
+                class="javascript"
+              ><code>// MUCH BETTER
 class Vehicle {
   
   constructor(make) {
@@ -485,13 +2110,84 @@ class Car extends Vehicle {
   getColor() {
     /* ... */
   }
-}</code></pre></div></div></section><section data-id="b23a31a56c531c09f7ad9a279f3f0ec5"><div class="sl-block" data-block-type="text" style="width: 1076px; left: 102px; top: 274px; height: auto;" data-block-id="347f2c9ac7d1cbdde5918fd6117a4607"><div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text" style="z-index: 10;">
-<h1>Concurrency</h1>
-</div></div>
-<div class="sl-block" data-block-type="image" data-name="image-986369" data-block-id="efdb6259f2c313bc4f71de764803b6a2" style="width: 106.4px; height: 106.4px; left: 233.6px; top: 269.3px; min-width: 1px; min-height: 1px;"><div class="sl-block-content" style="z-index: 11;"><img style="" data-natural-width="200" data-natural-height="200" data-lazy-loaded="" data-src="10-ways-to-write-clean-javascript-code/1378ece1583940a2ec2095ac9120a890.gif"></div></div></section><section data-id="da36a1306424b8c683ecafe4e089d95a"><div class="sl-block" data-block-type="text" style="width: 1178px; left: 51px; top: 70px; height: auto;" data-block-id="396765685f8d3a7be063bee80161e336"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 10;">
-<h2>Use Promises, not callbacks (1)</h2>
-</div></div>
-<div class="sl-block" data-block-type="code" data-name="code-595252" style="width: 1280px; height: 396px; left: 0px; top: 234px;" data-block-id="edfd273f955640d0b963dc281a192c1b"><div class="sl-block-content notranslate" data-highlight-theme="monokai" data-code-frame="none" style="z-index: 11;"><pre style="font-size: 27px; line-height: 32px;" class="javascript"><code>// NOT SO CLEAN
+}</code></pre>
+            </div>
+          </div>
+        </section>
+        <section data-id="b23a31a56c531c09f7ad9a279f3f0ec5">
+          <div
+            class="sl-block"
+            data-block-type="text"
+            style="width: 1076px; left: 102px; top: 274px; height: auto"
+            data-block-id="347f2c9ac7d1cbdde5918fd6117a4607"
+          >
+            <div
+              class="sl-block-content"
+              data-placeholder-tag="h1"
+              data-placeholder-text="Title Text"
+              style="z-index: 10"
+            >
+              <h1>Concurrency</h1>
+            </div>
+          </div>
+          <div
+            class="sl-block"
+            data-block-type="image"
+            data-name="image-986369"
+            data-block-id="efdb6259f2c313bc4f71de764803b6a2"
+            style="
+              width: 106.4px;
+              height: 106.4px;
+              left: 233.6px;
+              top: 269.3px;
+              min-width: 1px;
+              min-height: 1px;
+            "
+          >
+            <div class="sl-block-content" style="z-index: 11">
+              <img
+                style=""
+                data-natural-width="200"
+                data-natural-height="200"
+                data-lazy-loaded=""
+                data-src="10-ways-to-write-clean-javascript-code/1378ece1583940a2ec2095ac9120a890.gif"
+              />
+            </div>
+          </div>
+        </section>
+        <section data-id="da36a1306424b8c683ecafe4e089d95a">
+          <div
+            class="sl-block"
+            data-block-type="text"
+            style="width: 1178px; left: 51px; top: 70px; height: auto"
+            data-block-id="396765685f8d3a7be063bee80161e336"
+          >
+            <div
+              class="sl-block-content"
+              data-placeholder-tag="h2"
+              data-placeholder-text="Title Text"
+              style="z-index: 10"
+            >
+              <h2>Use Promises, not callbacks (1)</h2>
+            </div>
+          </div>
+          <div
+            class="sl-block"
+            data-block-type="code"
+            data-name="code-595252"
+            style="width: 1280px; height: 396px; left: 0px; top: 234px"
+            data-block-id="edfd273f955640d0b963dc281a192c1b"
+          >
+            <div
+              class="sl-block-content notranslate"
+              data-highlight-theme="monokai"
+              data-code-frame="none"
+              style="z-index: 11"
+            >
+              <pre
+                style="font-size: 27px; line-height: 32px"
+                class="javascript"
+              ><code>// NOT SO CLEAN
 getStore(function (err, store) {
   getTransactions(store, function (err, transactions) {
     getReports(transactions, function (err, reports) {
@@ -501,21 +2197,85 @@ getStore(function (err, store) {
     });
   });
 });
-</code></pre></div></div>
-</section><section data-id="25ff1117a0a91e6c975bfe98bbe6d9af"><div class="sl-block" data-block-type="text" style="width: 1178px; left: 51px; top: 70px; height: auto;" data-block-id="b4c1c0342260d73ab19347bb0bcb7daa"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 10;">
-<h2>Use Promises, not callbacks (2)</h2>
-</div></div>
-<div class="sl-block" data-block-type="code" data-name="code-595252" style="width: 1280px; height: 247px; left: 0px; top: 308.5px;" data-block-id="ae9016ad962d703f14906a048d5c83da"><div class="sl-block-content notranslate" data-highlight-theme="monokai" data-code-frame="none" style="z-index: 11;"><pre style="font-size: 27px; line-height: 32px;" class="javascript"><code>// MUCH BETTER
+</code></pre>
+            </div>
+          </div>
+        </section>
+        <section data-id="25ff1117a0a91e6c975bfe98bbe6d9af">
+          <div
+            class="sl-block"
+            data-block-type="text"
+            style="width: 1178px; left: 51px; top: 70px; height: auto"
+            data-block-id="b4c1c0342260d73ab19347bb0bcb7daa"
+          >
+            <div
+              class="sl-block-content"
+              data-placeholder-tag="h2"
+              data-placeholder-text="Title Text"
+              style="z-index: 10"
+            >
+              <h2>Use Promises, not callbacks (2)</h2>
+            </div>
+          </div>
+          <div
+            class="sl-block"
+            data-block-type="code"
+            data-name="code-595252"
+            style="width: 1280px; height: 247px; left: 0px; top: 308.5px"
+            data-block-id="ae9016ad962d703f14906a048d5c83da"
+          >
+            <div
+              class="sl-block-content notranslate"
+              data-highlight-theme="monokai"
+              data-code-frame="none"
+              style="z-index: 11"
+            >
+              <pre
+                style="font-size: 27px; line-height: 32px"
+                class="javascript"
+              ><code>// MUCH BETTER
 getStore()
   .then(getTransactions)
   .then(getReports)
   .then(sendReports)
   .catch((err) =&gt; console.error(err));
-</code></pre></div></div>
-</section><section data-id="47c4c73b922dbab7c29251349c46ad0f"><div class="sl-block" data-block-type="text" style="width: 1178px; left: 51px; top: 70px; height: auto;" data-block-id="d3e2cb3ee5dd86a3be5c3a2406f9114e"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 10;">
-<h2>Async/Awaits are even cleaner</h2>
-</div></div>
-<div class="sl-block" data-block-type="code" data-name="code-595252" style="width: 1280px; height: 396px; left: 0px; top: 234px;" data-block-id="ffd482fdeb0b5f5dd92925ffcad8cc72"><div class="sl-block-content notranslate" data-highlight-theme="monokai" data-code-frame="none" style="z-index: 11;"><pre style="font-size: 27px; line-height: 32px;" class="javascript"><code>// EVEN BETTER
+</code></pre>
+            </div>
+          </div>
+        </section>
+        <section data-id="47c4c73b922dbab7c29251349c46ad0f">
+          <div
+            class="sl-block"
+            data-block-type="text"
+            style="width: 1178px; left: 51px; top: 70px; height: auto"
+            data-block-id="d3e2cb3ee5dd86a3be5c3a2406f9114e"
+          >
+            <div
+              class="sl-block-content"
+              data-placeholder-tag="h2"
+              data-placeholder-text="Title Text"
+              style="z-index: 10"
+            >
+              <h2>Async/Awaits are even cleaner</h2>
+            </div>
+          </div>
+          <div
+            class="sl-block"
+            data-block-type="code"
+            data-name="code-595252"
+            style="width: 1280px; height: 396px; left: 0px; top: 234px"
+            data-block-id="ffd482fdeb0b5f5dd92925ffcad8cc72"
+          >
+            <div
+              class="sl-block-content notranslate"
+              data-highlight-theme="monokai"
+              data-code-frame="none"
+              style="z-index: 11"
+            >
+              <pre
+                style="font-size: 27px; line-height: 32px"
+                class="javascript"
+              ><code>// EVEN BETTER
 async function sendReportsToStoreManagement() {
   try {
     const store = await getStore();
@@ -526,21 +2286,110 @@ async function sendReportsToStoreManagement() {
     console.error(err);
   }
 }
-</code></pre></div></div>
-</section><section data-id="9a4bc54d729fef23cd5b636d3970f7a8"><div class="sl-block" data-block-type="text" style="width: 1076px; left: 102px; top: 274px; height: auto;" data-block-id="cc46ecb7cdf713026bc96ea429baf2c6"><div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text" style="z-index: 10;">
-<h1>Error Handling</h1>
-</div></div>
-<div class="sl-block" data-block-type="image" data-name="image-5e3db7" data-block-id="a4bbf102e21a1ebe454cce60982997dc" style="width: 106.4px; height: 106.4px; left: 199px; top: 269.3px; min-width: 1px; min-height: 1px;"><div class="sl-block-content" style="z-index: 12;"><img style="" data-natural-width="200" data-natural-height="200" data-lazy-loaded="" data-src="10-ways-to-write-clean-javascript-code/e6bccf6a0d9969541b9176fb52e6e06f.gif"></div></div></section><section data-id="ec749e0be9a23ddd875675d333887852"><div class="sl-block" data-block-type="text" style="width: 1178px; left: 51px; top: 35px; height: auto;" data-block-id="6444dd20418374c6ad7c4e919d2de9fa"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 10;">
-<h2>Don't ignore caught errors</h2>
-</div></div>
-<div class="sl-block" data-block-type="code" data-name="code-595252" style="width: 1280px; height: 182.75px; left: 0px; top: 196.625px;" data-block-id="f92c87ca82417eeed9600c30ecf0fd45"><div class="sl-block-content notranslate" data-highlight-theme="monokai" data-code-frame="none" style="z-index: 11;"><pre style="font-size: 21px; line-height: 25px;" class="javascript"><code>// NOT SO CLEAN
+</code></pre>
+            </div>
+          </div>
+        </section>
+        <section data-id="9a4bc54d729fef23cd5b636d3970f7a8">
+          <div
+            class="sl-block"
+            data-block-type="text"
+            style="width: 1076px; left: 102px; top: 274px; height: auto"
+            data-block-id="cc46ecb7cdf713026bc96ea429baf2c6"
+          >
+            <div
+              class="sl-block-content"
+              data-placeholder-tag="h1"
+              data-placeholder-text="Title Text"
+              style="z-index: 10"
+            >
+              <h1>Error Handling</h1>
+            </div>
+          </div>
+          <div
+            class="sl-block"
+            data-block-type="image"
+            data-name="image-5e3db7"
+            data-block-id="a4bbf102e21a1ebe454cce60982997dc"
+            style="
+              width: 106.4px;
+              height: 106.4px;
+              left: 199px;
+              top: 269.3px;
+              min-width: 1px;
+              min-height: 1px;
+            "
+          >
+            <div class="sl-block-content" style="z-index: 12">
+              <img
+                style=""
+                data-natural-width="200"
+                data-natural-height="200"
+                data-lazy-loaded=""
+                data-src="10-ways-to-write-clean-javascript-code/e6bccf6a0d9969541b9176fb52e6e06f.gif"
+              />
+            </div>
+          </div>
+        </section>
+        <section data-id="ec749e0be9a23ddd875675d333887852">
+          <div
+            class="sl-block"
+            data-block-type="text"
+            style="width: 1178px; left: 51px; top: 35px; height: auto"
+            data-block-id="6444dd20418374c6ad7c4e919d2de9fa"
+          >
+            <div
+              class="sl-block-content"
+              data-placeholder-tag="h2"
+              data-placeholder-text="Title Text"
+              style="z-index: 10"
+            >
+              <h2>Don't ignore caught errors</h2>
+            </div>
+          </div>
+          <div
+            class="sl-block"
+            data-block-type="code"
+            data-name="code-595252"
+            style="width: 1280px; height: 182.75px; left: 0px; top: 196.625px"
+            data-block-id="f92c87ca82417eeed9600c30ecf0fd45"
+          >
+            <div
+              class="sl-block-content notranslate"
+              data-highlight-theme="monokai"
+              data-code-frame="none"
+              style="z-index: 11"
+            >
+              <pre
+                style="font-size: 21px; line-height: 25px"
+                class="javascript"
+              ><code>// NOT SO CLEAN
 try {
   functionThatMightThrowError();
 } catch (error) {
   console.log(error);
 }
-</code></pre></div></div>
-<div class="sl-block" data-block-type="code" style="width: 1280px; height: 317px; left: 0px; top: 403px;" data-name="code-d576c7" data-block-id="00ebc0e1a511532c79483f9aacaaf8fa"><div class="sl-block-content notranslate fragment" data-highlight-theme="monokai" data-code-frame="none" style="z-index: 12;" data-fragment-index="0"><pre style="font-size: 21px; line-height: 25px;" class="javascript"><code>// MUCH BETTER
+</code></pre>
+            </div>
+          </div>
+          <div
+            class="sl-block"
+            data-block-type="code"
+            style="width: 1280px; height: 317px; left: 0px; top: 403px"
+            data-name="code-d576c7"
+            data-block-id="00ebc0e1a511532c79483f9aacaaf8fa"
+          >
+            <div
+              class="sl-block-content notranslate fragment"
+              data-highlight-theme="monokai"
+              data-code-frame="none"
+              style="z-index: 12"
+              data-fragment-index="0"
+            >
+              <pre
+                style="font-size: 21px; line-height: 25px"
+                class="javascript"
+              ><code>// MUCH BETTER
 try {
   functionThatMightThrowError();
 } catch (error) {
@@ -551,18 +2400,70 @@ try {
   // Another option:
   reportErrorToService(error);
   // OR do all three!
-}</code></pre></div></div></section><section data-id="45fa2072c0eca1619a75a4d08725b2bd"><div class="sl-block" data-block-type="text" style="width: 1178px; left: 51px; top: 35px; height: auto;" data-block-id="e640f1da56232289814c0bbfc33df57e"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 10;">
-<h2>Don't ignore rejected promises</h2>
-</div></div>
-<div class="sl-block" data-block-type="code" data-name="code-595252" style="width: 1280px; height: 216px; left: 0px; top: 129px;" data-block-id="e1a37eb03d7cedb262d83df8382e10a5"><div class="sl-block-content notranslate" data-highlight-theme="monokai" data-code-frame="none" style="z-index: 11;"><pre style="font-size: 21px; line-height: 25px;" class="javascript"><code>// NOT SO CLEAN
+}</code></pre>
+            </div>
+          </div>
+        </section>
+        <section data-id="45fa2072c0eca1619a75a4d08725b2bd">
+          <div
+            class="sl-block"
+            data-block-type="text"
+            style="width: 1178px; left: 51px; top: 35px; height: auto"
+            data-block-id="e640f1da56232289814c0bbfc33df57e"
+          >
+            <div
+              class="sl-block-content"
+              data-placeholder-tag="h2"
+              data-placeholder-text="Title Text"
+              style="z-index: 10"
+            >
+              <h2>Don't ignore rejected promises</h2>
+            </div>
+          </div>
+          <div
+            class="sl-block"
+            data-block-type="code"
+            data-name="code-595252"
+            style="width: 1280px; height: 216px; left: 0px; top: 129px"
+            data-block-id="e1a37eb03d7cedb262d83df8382e10a5"
+          >
+            <div
+              class="sl-block-content notranslate"
+              data-highlight-theme="monokai"
+              data-code-frame="none"
+              style="z-index: 11"
+            >
+              <pre
+                style="font-size: 21px; line-height: 25px"
+                class="javascript"
+              ><code>// NOT SO CLEAN
 getdata()
   .then(data =&gt; {
     functionThatMightThrowError(data);
   })
   .catch(error =&gt; {
     console.log(error);
-  });</code></pre></div></div>
-<div class="sl-block" data-block-type="code" style="width: 1280px; height: 360px; left: 0px; top: 360px;" data-name="code-d576c7" data-block-id="0489cba8f859f95ca59ab0f2a88728b4"><div class="sl-block-content notranslate fragment" data-highlight-theme="monokai" data-code-frame="none" style="z-index: 12;" data-fragment-index="0"><pre style="font-size: 21px; line-height: 25px;" class="javascript"><code>// MUCH BETTER
+  });</code></pre>
+            </div>
+          </div>
+          <div
+            class="sl-block"
+            data-block-type="code"
+            style="width: 1280px; height: 360px; left: 0px; top: 360px"
+            data-name="code-d576c7"
+            data-block-id="0489cba8f859f95ca59ab0f2a88728b4"
+          >
+            <div
+              class="sl-block-content notranslate fragment"
+              data-highlight-theme="monokai"
+              data-code-frame="none"
+              style="z-index: 12"
+              data-fragment-index="0"
+            >
+              <pre
+                style="font-size: 21px; line-height: 25px"
+                class="javascript"
+              ><code>// MUCH BETTER
 getdata()
   .then(data =&gt; {
     functionThatMightThrowError(data);
@@ -575,13 +2476,84 @@ getdata()
     // Another option:
     reportErrorToService(error);
     // OR do all three!
-  });</code></pre></div></div></section><section data-id="b9704ddf1c85b275e4e1eccee0136ab3"><div class="sl-block" data-block-type="text" style="width: 1076px; left: 102px; top: 274px; height: auto;" data-block-id="8f8d4e5ed0a19ed2a5a9be8b77144f46"><div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text" style="z-index: 10;">
-<h1>Formatting</h1>
-</div></div>
-<div class="sl-block" data-block-type="image" data-name="image-5b740c" data-block-id="6ca8c48de59eba76f3084301c4bb5067" style="width: 106.4px; height: 106.4px; left: 266.8px; top: 269.3px; min-width: 1px; min-height: 1px;"><div class="sl-block-content" style="z-index: 11;"><img style="" data-natural-width="200" data-natural-height="200" data-lazy-loaded="" data-src="10-ways-to-write-clean-javascript-code/1918059ddbb31b478d005361e0c28e40.gif"></div></div></section><section data-id="e8b7b405699ab0be79f5e80d52f38b08"><div class="sl-block" data-block-type="text" style="width: 1178px; left: 51px; top: 0px; height: auto;" data-block-id="9a5689324339a8feaa222fb6bd1a572a"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 10;">
-<h2>Use consistent case</h2>
-</div></div>
-<div class="sl-block" data-block-type="code" data-name="code-595252" style="width: 1280px; height: 310px; left: 0px; top: 87px;" data-block-id="82ab80cf94787c4ff026d23a20de407c"><div class="sl-block-content notranslate" data-highlight-theme="monokai" data-code-frame="none" style="z-index: 11;"><pre style="font-size: 21px; line-height: 25px;" class="javascript"><code>// NOT SO CLEAN
+  });</code></pre>
+            </div>
+          </div>
+        </section>
+        <section data-id="b9704ddf1c85b275e4e1eccee0136ab3">
+          <div
+            class="sl-block"
+            data-block-type="text"
+            style="width: 1076px; left: 102px; top: 274px; height: auto"
+            data-block-id="8f8d4e5ed0a19ed2a5a9be8b77144f46"
+          >
+            <div
+              class="sl-block-content"
+              data-placeholder-tag="h1"
+              data-placeholder-text="Title Text"
+              style="z-index: 10"
+            >
+              <h1>Formatting</h1>
+            </div>
+          </div>
+          <div
+            class="sl-block"
+            data-block-type="image"
+            data-name="image-5b740c"
+            data-block-id="6ca8c48de59eba76f3084301c4bb5067"
+            style="
+              width: 106.4px;
+              height: 106.4px;
+              left: 266.8px;
+              top: 269.3px;
+              min-width: 1px;
+              min-height: 1px;
+            "
+          >
+            <div class="sl-block-content" style="z-index: 11">
+              <img
+                style=""
+                data-natural-width="200"
+                data-natural-height="200"
+                data-lazy-loaded=""
+                data-src="10-ways-to-write-clean-javascript-code/1918059ddbb31b478d005361e0c28e40.gif"
+              />
+            </div>
+          </div>
+        </section>
+        <section data-id="e8b7b405699ab0be79f5e80d52f38b08">
+          <div
+            class="sl-block"
+            data-block-type="text"
+            style="width: 1178px; left: 51px; top: 0px; height: auto"
+            data-block-id="9a5689324339a8feaa222fb6bd1a572a"
+          >
+            <div
+              class="sl-block-content"
+              data-placeholder-tag="h2"
+              data-placeholder-text="Title Text"
+              style="z-index: 10"
+            >
+              <h2>Use consistent case</h2>
+            </div>
+          </div>
+          <div
+            class="sl-block"
+            data-block-type="code"
+            data-name="code-595252"
+            style="width: 1280px; height: 310px; left: 0px; top: 87px"
+            data-block-id="82ab80cf94787c4ff026d23a20de407c"
+          >
+            <div
+              class="sl-block-content notranslate"
+              data-highlight-theme="monokai"
+              data-code-frame="none"
+              style="z-index: 11"
+            >
+              <pre
+                style="font-size: 21px; line-height: 25px"
+                class="javascript"
+              ><code>// NOT SO CLEAN
 const MIN_TEMPERATURE = 32;
 const maxTemperature = 120;
 
@@ -592,8 +2564,27 @@ function resetData() {}
 function refetch_data() {}
 
 class vehicle {}
-class Car {}</code></pre></div></div>
-<div class="sl-block" data-block-type="code" style="width: 1280px; height: 310px; left: 0px; top: 410px;" data-name="code-d576c7" data-block-id="44ae709caaaecb1ea45a2848dcc5a576"><div class="sl-block-content notranslate fragment" data-highlight-theme="monokai" data-code-frame="none" style="z-index: 12;" data-fragment-index="0"><pre style="font-size: 21px; line-height: 25px;" class="javascript"><code>// MUCH BETTER
+class Car {}</code></pre>
+            </div>
+          </div>
+          <div
+            class="sl-block"
+            data-block-type="code"
+            style="width: 1280px; height: 310px; left: 0px; top: 410px"
+            data-name="code-d576c7"
+            data-block-id="44ae709caaaecb1ea45a2848dcc5a576"
+          >
+            <div
+              class="sl-block-content notranslate fragment"
+              data-highlight-theme="monokai"
+              data-code-frame="none"
+              style="z-index: 12"
+              data-fragment-index="0"
+            >
+              <pre
+                style="font-size: 21px; line-height: 25px"
+                class="javascript"
+              ><code>// MUCH BETTER
 const MIN_TEMPERATURE = 32;
 const MAX_TEMPARATURE = 120;
 
@@ -604,23 +2595,132 @@ function resetData() {}
 function refetchData() {}
 
 class Vehicle {}
-class Car {}</code></pre></div></div></section><section data-id="50b1da35faebeff4f9a4f5ccfbecb184"><div class="sl-block" data-block-type="text" style="width: 1076px; left: 102px; top: 194px; height: auto;" data-block-id="a5c0ba6b6d92eae1dbf0e59a5a61d1ad"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 10;">
-<h2>Use a linter</h2>
-</div></div>
-<div class="sl-block" data-block-type="text" style="width: 1076px; left: 102px; top: 288px; height: auto;" data-block-id="e6296db4d61f6bd2ffcc09f549192745"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11; line-height: 1.95;" data-has-line-height="">
-<ul>
-	<li><a href="https://eslint.org/" target="_blank">ESLint</a></li>
-	<li><a href="https://github.com/airbnb/javascript" target="_blank">AirBnB JS StyleGuide</a></li>
-	<li><a href="https://standardjs.com/" target="_blank">Standard JS Style Guide</a></li>
-	<li>etc.</li>
-</ul>
-</div></div></section><section data-id="8417c4597b3a770b6179882754616324"><div class="sl-block" data-block-type="text" style="width: 1076px; left: 102px; top: 274px; height: auto;" data-block-id="8d81c2461e12c21273568cb1591a5e38"><div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text" style="z-index: 10;">
-<h1>Comments</h1>
-</div></div>
-<div class="sl-block" data-block-type="image" data-name="image-0db1c2" data-block-id="e182500757562de2d4359fcc26f5765a" style="width: 106.4px; height: 106.4px; left: 266.8px; top: 269.3px; min-width: 1px; min-height: 1px;"><div class="sl-block-content" style="z-index: 11;"><img style="" data-natural-width="200" data-natural-height="200" data-lazy-loaded="" data-src="10-ways-to-write-clean-javascript-code/0f53c1b4d18e6dab8fb423c5c36c0fff.gif"></div></div></section><section data-id="6b92880c8a1ad946716fd1814def8062"><div class="sl-block" data-block-type="text" style="width: 1178px; left: 51px; top: 35px; height: auto;" data-block-id="5457d9a21a6da0df366b5a554989d280"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 10;">
-<h2>Only comment business logic (1)</h2>
-</div></div>
-<div class="sl-block" data-block-type="code" data-name="code-595252" style="width: 1280px; height: 576px; left: 0px; top: 144px;" data-block-id="cb7a6deb131e3a1d642b9109f5d09a91"><div class="sl-block-content notranslate" data-highlight-theme="monokai" data-code-frame="none" style="z-index: 11;"><pre style="font-size: 26px; line-height: 31px;" class="javascript"><code>// NOT SO CLEAN
+class Car {}</code></pre>
+            </div>
+          </div>
+        </section>
+        <section data-id="50b1da35faebeff4f9a4f5ccfbecb184">
+          <div
+            class="sl-block"
+            data-block-type="text"
+            style="width: 1076px; left: 102px; top: 194px; height: auto"
+            data-block-id="a5c0ba6b6d92eae1dbf0e59a5a61d1ad"
+          >
+            <div
+              class="sl-block-content"
+              data-placeholder-tag="h2"
+              data-placeholder-text="Title Text"
+              style="z-index: 10"
+            >
+              <h2>Use a linter</h2>
+            </div>
+          </div>
+          <div
+            class="sl-block"
+            data-block-type="text"
+            style="width: 1076px; left: 102px; top: 288px; height: auto"
+            data-block-id="e6296db4d61f6bd2ffcc09f549192745"
+          >
+            <div
+              class="sl-block-content"
+              data-placeholder-tag="p"
+              data-placeholder-text="Text"
+              style="z-index: 11; line-height: 1.95"
+              data-has-line-height=""
+            >
+              <ul>
+                <li>
+                  <a href="https://eslint.org/" target="_blank">ESLint</a>
+                </li>
+                <li>
+                  <a href="https://github.com/airbnb/javascript" target="_blank"
+                    >AirBnB JS StyleGuide</a
+                  >
+                </li>
+                <li>
+                  <a href="https://standardjs.com/" target="_blank"
+                    >Standard JS Style Guide</a
+                  >
+                </li>
+                <li>etc.</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+        <section data-id="8417c4597b3a770b6179882754616324">
+          <div
+            class="sl-block"
+            data-block-type="text"
+            style="width: 1076px; left: 102px; top: 274px; height: auto"
+            data-block-id="8d81c2461e12c21273568cb1591a5e38"
+          >
+            <div
+              class="sl-block-content"
+              data-placeholder-tag="h1"
+              data-placeholder-text="Title Text"
+              style="z-index: 10"
+            >
+              <h1>Comments</h1>
+            </div>
+          </div>
+          <div
+            class="sl-block"
+            data-block-type="image"
+            data-name="image-0db1c2"
+            data-block-id="e182500757562de2d4359fcc26f5765a"
+            style="
+              width: 106.4px;
+              height: 106.4px;
+              left: 266.8px;
+              top: 269.3px;
+              min-width: 1px;
+              min-height: 1px;
+            "
+          >
+            <div class="sl-block-content" style="z-index: 11">
+              <img
+                style=""
+                data-natural-width="200"
+                data-natural-height="200"
+                data-lazy-loaded=""
+                data-src="10-ways-to-write-clean-javascript-code/0f53c1b4d18e6dab8fb423c5c36c0fff.gif"
+              />
+            </div>
+          </div>
+        </section>
+        <section data-id="6b92880c8a1ad946716fd1814def8062">
+          <div
+            class="sl-block"
+            data-block-type="text"
+            style="width: 1178px; left: 51px; top: 35px; height: auto"
+            data-block-id="5457d9a21a6da0df366b5a554989d280"
+          >
+            <div
+              class="sl-block-content"
+              data-placeholder-tag="h2"
+              data-placeholder-text="Title Text"
+              style="z-index: 10"
+            >
+              <h2>Only comment business logic (1)</h2>
+            </div>
+          </div>
+          <div
+            class="sl-block"
+            data-block-type="code"
+            data-name="code-595252"
+            style="width: 1280px; height: 576px; left: 0px; top: 144px"
+            data-block-id="cb7a6deb131e3a1d642b9109f5d09a91"
+          >
+            <div
+              class="sl-block-content notranslate"
+              data-highlight-theme="monokai"
+              data-code-frame="none"
+              style="z-index: 11"
+            >
+              <pre
+                style="font-size: 26px; line-height: 31px"
+                class="javascript"
+              ><code>// NOT SO CLEAN
 function generateHash(data) {
   // The hash
   let hash = 0;
@@ -637,12 +2737,44 @@ function generateHash(data) {
     // Convert to 32-bit integer
     hash &amp;= hash;
   }
-}</code></pre></div></div>
-</section><section data-id="9abbc49280c7ff160cf082eb3bfdaba5"><div class="sl-block" data-block-type="text" style="width: 1178px; left: 51px; top: 35px; height: auto;" data-block-id="b8d4a4da87705f6f93b6df6c256bd950"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 10;">
-<h2>Only comment business logic (2)</h2>
-</div></div>
+}</code></pre>
+            </div>
+          </div>
+        </section>
+        <section data-id="9abbc49280c7ff160cf082eb3bfdaba5">
+          <div
+            class="sl-block"
+            data-block-type="text"
+            style="width: 1178px; left: 51px; top: 35px; height: auto"
+            data-block-id="b8d4a4da87705f6f93b6df6c256bd950"
+          >
+            <div
+              class="sl-block-content"
+              data-placeholder-tag="h2"
+              data-placeholder-text="Title Text"
+              style="z-index: 10"
+            >
+              <h2>Only comment business logic (2)</h2>
+            </div>
+          </div>
 
-<div class="sl-block" data-block-type="code" style="width: 1280px; height: 426px; left: 0px; top: 219px;" data-name="code-d576c7" data-block-id="19239c5375878cd8a27076a2dcc04426"><div class="sl-block-content notranslate" data-highlight-theme="monokai" data-code-frame="none" style="z-index: 12;"><pre style="font-size: 26px; line-height: 31px;" class="javascript"><code>// MUCH BETTER
+          <div
+            class="sl-block"
+            data-block-type="code"
+            style="width: 1280px; height: 426px; left: 0px; top: 219px"
+            data-name="code-d576c7"
+            data-block-id="19239c5375878cd8a27076a2dcc04426"
+          >
+            <div
+              class="sl-block-content notranslate"
+              data-highlight-theme="monokai"
+              data-code-frame="none"
+              style="z-index: 12"
+            >
+              <pre
+                style="font-size: 26px; line-height: 31px"
+                class="javascript"
+              ><code>// MUCH BETTER
 function generateHash(data) {
   let hash = 0;
   const length = data.length;
@@ -654,10 +2786,43 @@ function generateHash(data) {
     // Convert to 32-bit integer
     hash &amp;= hash;
   }
-}</code></pre></div></div></section><section data-id="d516783e43288b6b68c7cfda27a64c26"><div class="sl-block" data-block-type="text" style="width: 1178px; left: 51px; top: 20px; height: auto;" data-block-id="321879e8c4fcd348de7613f18e037945"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 10;">
-<h2>Don't leave commented out code</h2>
-</div></div>
-<div class="sl-block" data-block-type="code" data-name="code-595252" style="width: 1280px; height: 450px; left: 0px; top: 115px;" data-block-id="e37760ed5090eb27bcb918ab3a86f3cb"><div class="sl-block-content notranslate" data-highlight-theme="monokai" data-code-frame="none" style="z-index: 11;"><pre style="font-size: 24px; line-height: 29px;" class="javascript"><code>// NOT SO CLEAN
+}</code></pre>
+            </div>
+          </div>
+        </section>
+        <section data-id="d516783e43288b6b68c7cfda27a64c26">
+          <div
+            class="sl-block"
+            data-block-type="text"
+            style="width: 1178px; left: 51px; top: 20px; height: auto"
+            data-block-id="321879e8c4fcd348de7613f18e037945"
+          >
+            <div
+              class="sl-block-content"
+              data-placeholder-tag="h2"
+              data-placeholder-text="Title Text"
+              style="z-index: 10"
+            >
+              <h2>Don't leave commented out code</h2>
+            </div>
+          </div>
+          <div
+            class="sl-block"
+            data-block-type="code"
+            data-name="code-595252"
+            style="width: 1280px; height: 450px; left: 0px; top: 115px"
+            data-block-id="e37760ed5090eb27bcb918ab3a86f3cb"
+          >
+            <div
+              class="sl-block-content notranslate"
+              data-highlight-theme="monokai"
+              data-code-frame="none"
+              style="z-index: 11"
+            >
+              <pre
+                style="font-size: 24px; line-height: 29px"
+                class="javascript"
+              ><code>// NOT SO CLEAN
 /**
  * 2022-01-01: Initial Commit (AF)
  * 2022-01-02: Added new feature (JD)
@@ -671,14 +2836,66 @@ function computeAverage(numbers = []) {
   // }
   const sum = addNumbers(numbers);
   return sum / numbers.length;
-}</code></pre></div></div>
-<div class="sl-block" data-block-type="code" style="width: 1280px; height: 143px; left: 0px; top: 576px;" data-name="code-d576c7" data-block-id="7fa1ae0dde34c2c317287b32493ea603"><div class="sl-block-content notranslate fragment" data-highlight-theme="monokai" data-code-frame="none" style="z-index: 12;" data-fragment-index="0"><pre style="font-size: 24px; line-height: 29px;" class="javascript"><code>// MUCH BETTER
+}</code></pre>
+            </div>
+          </div>
+          <div
+            class="sl-block"
+            data-block-type="code"
+            style="width: 1280px; height: 143px; left: 0px; top: 576px"
+            data-name="code-d576c7"
+            data-block-id="7fa1ae0dde34c2c317287b32493ea603"
+          >
+            <div
+              class="sl-block-content notranslate fragment"
+              data-highlight-theme="monokai"
+              data-code-frame="none"
+              style="z-index: 12"
+              data-fragment-index="0"
+            >
+              <pre
+                style="font-size: 24px; line-height: 29px"
+                class="javascript"
+              ><code>// MUCH BETTER
 function computeAverage(numbers = []) {
   return addNumbers(numbers) / numbers.length;
-}</code></pre></div></div></section><section data-id="78e65c262c1befec872dfbcd8bf41f5e"><div class="sl-block" data-block-type="text" style="width: 1178px; left: 51px; top: 35px; height: auto;" data-block-id="c726c551a8fd5a972eb18e9cce767e0b"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 10;">
-<h2>Comment when necessary</h2>
-</div></div>
-<div class="sl-block" data-block-type="code" data-name="code-595252" style="width: 1280px; height: 400px; left: 0px; top: 232px;" data-block-id="54ede2e6800fb5d98a0270bfdae24fb7"><div class="sl-block-content notranslate" data-highlight-theme="monokai" data-code-frame="none" style="z-index: 11;"><pre style="font-size: 26px; line-height: 31px;" class="javascript"><code>// MUCH BETTER
+}</code></pre>
+            </div>
+          </div>
+        </section>
+        <section data-id="78e65c262c1befec872dfbcd8bf41f5e">
+          <div
+            class="sl-block"
+            data-block-type="text"
+            style="width: 1178px; left: 51px; top: 35px; height: auto"
+            data-block-id="c726c551a8fd5a972eb18e9cce767e0b"
+          >
+            <div
+              class="sl-block-content"
+              data-placeholder-tag="h2"
+              data-placeholder-text="Title Text"
+              style="z-index: 10"
+            >
+              <h2>Comment when necessary</h2>
+            </div>
+          </div>
+          <div
+            class="sl-block"
+            data-block-type="code"
+            data-name="code-595252"
+            style="width: 1280px; height: 400px; left: 0px; top: 232px"
+            data-block-id="54ede2e6800fb5d98a0270bfdae24fb7"
+          >
+            <div
+              class="sl-block-content notranslate"
+              data-highlight-theme="monokai"
+              data-code-frame="none"
+              style="z-index: 11"
+            >
+              <pre
+                style="font-size: 26px; line-height: 31px"
+                class="javascript"
+              ><code>// MUCH BETTER
 /**  
  * Returns if input is a prime number or not.  
  *  
@@ -687,14 +2904,84 @@ function computeAverage(numbers = []) {
  */ 
 function isPrime(number) {   
     // ...
-}</code></pre></div></div>
-</section><section data-id="d8f8dfe0f91262569d9cf30d9b3d5e03"><div class="sl-block" data-block-type="text" style="width: 1076px; left: 102px; top: 274px; height: auto;" data-block-id="c3d737ecd9c45a7bd467e6cadc2d30b1"><div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text" style="z-index: 10;">
-<h1>Testing</h1>
-</div></div>
-<div class="sl-block" data-block-type="image" data-name="image-909ea3" data-block-id="7a5c0934dcc2be280445d4476401fdda" style="width: 106.4px; height: 106.4px; left: 340px; top: 269.3px; min-width: 1px; min-height: 1px;"><div class="sl-block-content" style="z-index: 11;"><img style="" data-natural-width="200" data-natural-height="200" data-lazy-loaded="" data-src="10-ways-to-write-clean-javascript-code/a37747d73e375f419237219ecf434d85.gif"></div></div></section><section data-id="c0e10219fe2718ea7e6a673287efbdfb"><div class="sl-block" data-block-type="text" style="width: 1178px; left: 51px; top: 20px; height: auto;" data-block-id="84d87fbf6df704912e63592a89388f04"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 10;">
-<h2>Single concept per test (1)</h2>
-</div></div>
-<div class="sl-block" data-block-type="code" data-name="code-595252" style="width: 1280px; height: 482px; left: 0px; top: 191px;" data-block-id="308ebf4d4648b8b4f3cb859d7b5faa3e"><div class="sl-block-content notranslate" data-highlight-theme="monokai" data-code-frame="none" style="z-index: 11;"><pre style="font-size: 23px; line-height: 28px;" class="javascript"><code>// NOT SO CLEAN
+}</code></pre>
+            </div>
+          </div>
+        </section>
+        <section data-id="d8f8dfe0f91262569d9cf30d9b3d5e03">
+          <div
+            class="sl-block"
+            data-block-type="text"
+            style="width: 1076px; left: 102px; top: 274px; height: auto"
+            data-block-id="c3d737ecd9c45a7bd467e6cadc2d30b1"
+          >
+            <div
+              class="sl-block-content"
+              data-placeholder-tag="h1"
+              data-placeholder-text="Title Text"
+              style="z-index: 10"
+            >
+              <h1>Testing</h1>
+            </div>
+          </div>
+          <div
+            class="sl-block"
+            data-block-type="image"
+            data-name="image-909ea3"
+            data-block-id="7a5c0934dcc2be280445d4476401fdda"
+            style="
+              width: 106.4px;
+              height: 106.4px;
+              left: 340px;
+              top: 269.3px;
+              min-width: 1px;
+              min-height: 1px;
+            "
+          >
+            <div class="sl-block-content" style="z-index: 11">
+              <img
+                style=""
+                data-natural-width="200"
+                data-natural-height="200"
+                data-lazy-loaded=""
+                data-src="10-ways-to-write-clean-javascript-code/a37747d73e375f419237219ecf434d85.gif"
+              />
+            </div>
+          </div>
+        </section>
+        <section data-id="c0e10219fe2718ea7e6a673287efbdfb">
+          <div
+            class="sl-block"
+            data-block-type="text"
+            style="width: 1178px; left: 51px; top: 20px; height: auto"
+            data-block-id="84d87fbf6df704912e63592a89388f04"
+          >
+            <div
+              class="sl-block-content"
+              data-placeholder-tag="h2"
+              data-placeholder-text="Title Text"
+              style="z-index: 10"
+            >
+              <h2>Single concept per test (1)</h2>
+            </div>
+          </div>
+          <div
+            class="sl-block"
+            data-block-type="code"
+            data-name="code-595252"
+            style="width: 1280px; height: 482px; left: 0px; top: 191px"
+            data-block-id="308ebf4d4648b8b4f3cb859d7b5faa3e"
+          >
+            <div
+              class="sl-block-content notranslate"
+              data-highlight-theme="monokai"
+              data-code-frame="none"
+              style="z-index: 11"
+            >
+              <pre
+                style="font-size: 23px; line-height: 28px"
+                class="javascript"
+              ><code>// NOT SO CLEAN
 describe("user info form", () =&gt; {
   it('validates form workflows', () =&gt; {
     const {handleSubmit, user} = setupSuccessCase()
@@ -709,11 +2996,43 @@ describe("user info form", () =&gt; {
     expect(errorMessage).toHaveTextContent(/password is required/i)
     expect(handleSubmit).not.toHaveBeenCalled()
   })
-});</code></pre></div></div>
-</section><section data-id="27b2398b6154d5d3d27191c38ea37c51"><div class="sl-block" data-block-type="text" style="width: 1178px; left: 51px; top: 20px; height: auto;" data-block-id="159f2657acd05fa32eb965199201aed4"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 10;">
-<h2>Single concept per test (2)</h2>
-</div></div>
-<div class="sl-block" data-block-type="code" data-name="code-595252" style="width: 1280px; height: 605px; left: 0px; top: 115px;" data-block-id="aeddc6723af0bd3e9eb584c6f71e23dd"><div class="sl-block-content notranslate" data-highlight-theme="monokai" data-code-frame="none" style="z-index: 11;"><pre style="font-size: 23px; line-height: 28px;" class="javascript"><code>// MUCH BETTER
+});</code></pre>
+            </div>
+          </div>
+        </section>
+        <section data-id="27b2398b6154d5d3d27191c38ea37c51">
+          <div
+            class="sl-block"
+            data-block-type="text"
+            style="width: 1178px; left: 51px; top: 20px; height: auto"
+            data-block-id="159f2657acd05fa32eb965199201aed4"
+          >
+            <div
+              class="sl-block-content"
+              data-placeholder-tag="h2"
+              data-placeholder-text="Title Text"
+              style="z-index: 10"
+            >
+              <h2>Single concept per test (2)</h2>
+            </div>
+          </div>
+          <div
+            class="sl-block"
+            data-block-type="code"
+            data-name="code-595252"
+            style="width: 1280px; height: 605px; left: 0px; top: 115px"
+            data-block-id="aeddc6723af0bd3e9eb584c6f71e23dd"
+          >
+            <div
+              class="sl-block-content notranslate"
+              data-highlight-theme="monokai"
+              data-code-frame="none"
+              style="z-index: 11"
+            >
+              <pre
+                style="font-size: 23px; line-height: 28px"
+                class="javascript"
+              ><code>// MUCH BETTER
 describe("user info form", () =&gt; {
   it('calls onSubmit with the username and password', () =&gt; {
     const {handleSubmit, user} = setupSuccessCase()
@@ -732,26 +3051,128 @@ describe("user info form", () =&gt; {
     expect(errorMessage).toHaveTextContent(/password is required/i)
     expect(handleSubmit).not.toHaveBeenCalled()
   })
-});</code></pre></div></div>
-</section><section data-id="e7bb69c28eb1ac2b55f6b6ae75e176cc"><div class="sl-block" data-block-type="text" style="width: 1076px; left: 102px; top: 194px; height: auto;" data-block-id="7cbec3fc92097b8c1362fde1e146986d"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 10;">
-<h2>F.I.R.S.T principle</h2>
-</div></div>
-<div class="sl-block" data-block-type="text" style="width: 1076px; left: 102px; top: 288px; height: auto;" data-block-id="cce53a92accecbce1a9694e06a777313"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11; line-height: 1.95;" data-has-line-height="">
-<ul>
-	<li>Fast</li>
-	<li>Isolated</li>
-	<li>Repeatable</li>
-	<li>Self-validating</li>
-	<li>Timely/ <span style="color:rgb(17, 17, 17); text-align:left">Thorough</span>
-</li>
-</ul>
-</div></div></section><section data-id="6e7994e72ece9eb77f3fc50b76c5bf82"><div class="sl-block" data-block-type="text" style="width: 1076px; left: 102px; top: 274px; height: auto;" data-block-id="9895a310c8a9bc41dedbdb150cece2c7"><div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text" style="z-index: 10;">
-<h1>Type checking</h1>
-</div></div>
-<div class="sl-block" data-block-type="image" data-name="image-abf1ae" data-block-id="52be440f81d5caa8fffbe8900cef1d8c" style="width: 106.4px; height: 106.4px; left: 143.6px; top: 269.3px; min-width: 1px; min-height: 1px;"><div class="sl-block-content" style="z-index: 11;"><img style="" data-natural-width="200" data-natural-height="200" data-lazy-loaded="" data-src="10-ways-to-write-clean-javascript-code/188abaa99ca309faee72e210fc10fa9c.gif"></div></div></section><section data-id="27d90ba12d84f8c5c1360ee4a8615a68"><div class="sl-block" data-block-type="text" style="width: 1178px; left: 51px; top: 20px; height: auto;" data-block-id="d8e68efe2f417676cdcc92bcc285e35d"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 10;">
-<h2>Avoid type checking</h2>
-</div></div>
-<div class="sl-block" data-block-type="code" data-name="code-595252" style="width: 1280px; height: 357px; left: 0px; top: 181.5px;" data-block-id="fffb98185861224ee55757c1e30c1d02"><div class="sl-block-content notranslate" data-highlight-theme="monokai" data-code-frame="none" style="z-index: 11;"><pre style="font-size: 24px; line-height: 29px;" class="javascript"><code>// NOT SO CLEAN
+});</code></pre>
+            </div>
+          </div>
+        </section>
+        <section data-id="e7bb69c28eb1ac2b55f6b6ae75e176cc">
+          <div
+            class="sl-block"
+            data-block-type="text"
+            style="width: 1076px; left: 102px; top: 194px; height: auto"
+            data-block-id="7cbec3fc92097b8c1362fde1e146986d"
+          >
+            <div
+              class="sl-block-content"
+              data-placeholder-tag="h2"
+              data-placeholder-text="Title Text"
+              style="z-index: 10"
+            >
+              <h2>F.I.R.S.T principle</h2>
+            </div>
+          </div>
+          <div
+            class="sl-block"
+            data-block-type="text"
+            style="width: 1076px; left: 102px; top: 288px; height: auto"
+            data-block-id="cce53a92accecbce1a9694e06a777313"
+          >
+            <div
+              class="sl-block-content"
+              data-placeholder-tag="p"
+              data-placeholder-text="Text"
+              style="z-index: 11; line-height: 1.95"
+              data-has-line-height=""
+            >
+              <ul>
+                <li>Fast</li>
+                <li>Isolated</li>
+                <li>Repeatable</li>
+                <li>Self-validating</li>
+                <li>
+                  Timely/
+                  <span style="color: rgb(17, 17, 17); text-align: left"
+                    >Thorough</span
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+        <section data-id="6e7994e72ece9eb77f3fc50b76c5bf82">
+          <div
+            class="sl-block"
+            data-block-type="text"
+            style="width: 1076px; left: 102px; top: 274px; height: auto"
+            data-block-id="9895a310c8a9bc41dedbdb150cece2c7"
+          >
+            <div
+              class="sl-block-content"
+              data-placeholder-tag="h1"
+              data-placeholder-text="Title Text"
+              style="z-index: 10"
+            >
+              <h1>Type checking</h1>
+            </div>
+          </div>
+          <div
+            class="sl-block"
+            data-block-type="image"
+            data-name="image-abf1ae"
+            data-block-id="52be440f81d5caa8fffbe8900cef1d8c"
+            style="
+              width: 106.4px;
+              height: 106.4px;
+              left: 143.6px;
+              top: 269.3px;
+              min-width: 1px;
+              min-height: 1px;
+            "
+          >
+            <div class="sl-block-content" style="z-index: 11">
+              <img
+                style=""
+                data-natural-width="200"
+                data-natural-height="200"
+                data-lazy-loaded=""
+                data-src="10-ways-to-write-clean-javascript-code/188abaa99ca309faee72e210fc10fa9c.gif"
+              />
+            </div>
+          </div>
+        </section>
+        <section data-id="27d90ba12d84f8c5c1360ee4a8615a68">
+          <div
+            class="sl-block"
+            data-block-type="text"
+            style="width: 1178px; left: 51px; top: 20px; height: auto"
+            data-block-id="d8e68efe2f417676cdcc92bcc285e35d"
+          >
+            <div
+              class="sl-block-content"
+              data-placeholder-tag="h2"
+              data-placeholder-text="Title Text"
+              style="z-index: 10"
+            >
+              <h2>Avoid type checking</h2>
+            </div>
+          </div>
+          <div
+            class="sl-block"
+            data-block-type="code"
+            data-name="code-595252"
+            style="width: 1280px; height: 357px; left: 0px; top: 181.5px"
+            data-block-id="fffb98185861224ee55757c1e30c1d02"
+          >
+            <div
+              class="sl-block-content notranslate"
+              data-highlight-theme="monokai"
+              data-code-frame="none"
+              style="z-index: 11"
+            >
+              <pre
+                style="font-size: 24px; line-height: 29px"
+                class="javascript"
+              ><code>// NOT SO CLEAN
 function combine(firstInput, secondInput) {
   if (
     (typeof firstInput === "number" &amp;&amp; typeof secondInput === "number") ||
@@ -761,89 +3182,348 @@ function combine(firstInput, secondInput) {
   }
 
   throw new Error("Must be of type String or Number");
-}</code></pre></div></div>
-<div class="sl-block" data-block-type="text" data-name="text-a5ceb0" data-block-id="44a8e65af2b583530ae4bba7fc2d13ef" style="height: auto; width: 619px; left: 330.5px; top: 598px;"><div class="sl-block-content fragment" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12;" data-fragment-index="0">
-<h3>Use <a href="https://www.typescriptlang.org/" target="_blank">TypeScript </a>instead</h3>
-</div></div></section><section data-id="90688b5c202c98441de9a7a4b7ce6a00"><div class="sl-block" data-block-type="image" data-name="image-5c77c2" data-block-id="c82da4b8380abac3344dbbef695e2824" style="width: 883.613px; height: 272.111px; left: 198.193px; top: 367.944px; min-width: 1px; min-height: 1px;"><div class="sl-block-content fragment" style="z-index: 10;" data-fragment-index="0"><img style="" data-natural-width="1182" data-natural-height="364" data-lazy-loaded="" data-src="10-ways-to-write-clean-javascript-code/e929042ebbbb96eea7925ba1753f0796.png"></div></div>
-<div class="sl-block" data-block-type="text" data-name="text-77ef1b" data-block-id="9096e5768ef199190aa1ca727401ba5f" style="height: auto; width: 883.613px; left: 198.193px; top: 140px;"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;">
-<blockquote>
-<h3 style="color: rgb(48, 54, 51); text-align: start;">There are only two hard things in Computer Science: cache invalidation and naming things.<br>
-- Phil Karlton</h3>
-</blockquote>
-</div></div></section><section data-id="08ea3912dc1fcd422cd502849504e57f"><div class="sl-block" data-block-type="image" data-name="image-f960fd" data-block-id="a6f28d1feb22ca208410ea70a55671da" style="width: 640px; height: 426.667px; left: 0px; top: 146.667px; min-width: 1px; min-height: 1px;"><div class="sl-block-content" style="z-index: 10;"><img style="" data-natural-width="1920" data-natural-height="1280" data-lazy-loaded="" data-src="10-ways-to-write-clean-javascript-code/80a30621005a2779ee415a13490b94e1"></div></div>
-<div class="sl-block" data-block-type="image" data-name="image-c3c485" data-block-id="5f185fd82e8a9b7af50a361b50b40d34" style="width: 640px; height: 426.667px; left: 640px; top: 146.667px; min-width: 1px; min-height: 1px;"><div class="sl-block-content" style="z-index: 11;"><img style="" data-natural-width="1920" data-natural-height="1280" data-lazy-loaded="" data-src="10-ways-to-write-clean-javascript-code/1d83c8170691e540e06c6405d925bb69"></div></div></section><section data-id="74828edf48a78f09bb57167072beadc0"><div class="sl-block" data-block-type="text" style="width: 913.5px; left: 183.25px; top: 109.5px; height: auto;" data-block-id="b0be3a1f67706a383c10b24b48a3ad6a" data-name="text-bf5326"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Subtitle" style="z-index: 10; color: rgb(0, 0, 0);">
-<h3><span style="font-size:1.0em"><em><span style="text-align:start">“ </span></em><span style="color:rgb(24, 24, 24); text-align:left">Any fool can write code that a computer can understand. Good programmers write code that humans can understand.</span><em><span style="text-align:start"> ”</span></em></span></h3>
+}</code></pre>
+            </div>
+          </div>
+          <div
+            class="sl-block"
+            data-block-type="text"
+            data-name="text-a5ceb0"
+            data-block-id="44a8e65af2b583530ae4bba7fc2d13ef"
+            style="height: auto; width: 619px; left: 330.5px; top: 598px"
+          >
+            <div
+              class="sl-block-content fragment"
+              data-placeholder-tag="p"
+              data-placeholder-text="Text"
+              style="z-index: 12"
+              data-fragment-index="0"
+            >
+              <h3>
+                Use
+                <a href="https://www.typescriptlang.org/" target="_blank"
+                  >TypeScript </a
+                >instead
+              </h3>
+            </div>
+          </div>
+        </section>
+        <section data-id="90688b5c202c98441de9a7a4b7ce6a00">
+          <div
+            class="sl-block"
+            data-block-type="image"
+            data-name="image-5c77c2"
+            data-block-id="c82da4b8380abac3344dbbef695e2824"
+            style="
+              width: 883.613px;
+              height: 272.111px;
+              left: 198.193px;
+              top: 367.944px;
+              min-width: 1px;
+              min-height: 1px;
+            "
+          >
+            <div
+              class="sl-block-content fragment"
+              style="z-index: 10"
+              data-fragment-index="0"
+            >
+              <img
+                style=""
+                data-natural-width="1182"
+                data-natural-height="364"
+                data-lazy-loaded=""
+                data-src="10-ways-to-write-clean-javascript-code/e929042ebbbb96eea7925ba1753f0796.png"
+              />
+            </div>
+          </div>
+          <div
+            class="sl-block"
+            data-block-type="text"
+            data-name="text-77ef1b"
+            data-block-id="9096e5768ef199190aa1ca727401ba5f"
+            style="height: auto; width: 883.613px; left: 198.193px; top: 140px"
+          >
+            <div
+              class="sl-block-content"
+              data-placeholder-tag="p"
+              data-placeholder-text="Text"
+              style="z-index: 11"
+            >
+              <blockquote>
+                <h3 style="color: rgb(48, 54, 51); text-align: start">
+                  There are only two hard things in Computer Science: cache
+                  invalidation and naming things.<br />
+                  - Phil Karlton
+                </h3>
+              </blockquote>
+            </div>
+          </div>
+        </section>
+        <section data-id="08ea3912dc1fcd422cd502849504e57f">
+          <div
+            class="sl-block"
+            data-block-type="image"
+            data-name="image-f960fd"
+            data-block-id="a6f28d1feb22ca208410ea70a55671da"
+            style="
+              width: 640px;
+              height: 426.667px;
+              left: 0px;
+              top: 146.667px;
+              min-width: 1px;
+              min-height: 1px;
+            "
+          >
+            <div class="sl-block-content" style="z-index: 10">
+              <img
+                style=""
+                data-natural-width="1920"
+                data-natural-height="1280"
+                data-lazy-loaded=""
+                data-src="10-ways-to-write-clean-javascript-code/80a30621005a2779ee415a13490b94e1"
+              />
+            </div>
+          </div>
+          <div
+            class="sl-block"
+            data-block-type="image"
+            data-name="image-c3c485"
+            data-block-id="5f185fd82e8a9b7af50a361b50b40d34"
+            style="
+              width: 640px;
+              height: 426.667px;
+              left: 640px;
+              top: 146.667px;
+              min-width: 1px;
+              min-height: 1px;
+            "
+          >
+            <div class="sl-block-content" style="z-index: 11">
+              <img
+                style=""
+                data-natural-width="1920"
+                data-natural-height="1280"
+                data-lazy-loaded=""
+                data-src="10-ways-to-write-clean-javascript-code/1d83c8170691e540e06c6405d925bb69"
+              />
+            </div>
+          </div>
+        </section>
+        <section data-id="74828edf48a78f09bb57167072beadc0">
+          <div
+            class="sl-block"
+            data-block-type="text"
+            style="width: 913.5px; left: 183.25px; top: 109.5px; height: auto"
+            data-block-id="b0be3a1f67706a383c10b24b48a3ad6a"
+            data-name="text-bf5326"
+          >
+            <div
+              class="sl-block-content"
+              data-placeholder-tag="h2"
+              data-placeholder-text="Subtitle"
+              style="z-index: 10; color: rgb(0, 0, 0)"
+            >
+              <h3>
+                <span style="font-size: 1em"
+                  ><em><span style="text-align: start">“ </span></em
+                  ><span style="color: rgb(24, 24, 24); text-align: left"
+                    >Any fool can write code that a computer can understand.
+                    Good programmers write code that humans can
+                    understand.</span
+                  ><em><span style="text-align: start"> ”</span></em></span
+                >
+              </h3>
 
-<h3><span style="font-size:1.0em">— Martin Fowler</span></h3>
-</div></div>
-<div class="sl-block" data-block-type="text" style="width: 1120px; left: 80px; top: 423px; height: auto;" data-block-id="2312a67d099b8ffc91472cf25916e23c" data-name="text-774f6c"><div class="sl-block-content fragment" data-placeholder-tag="h2" data-placeholder-text="Subtitle" style="z-index: 11; color: rgb(0, 0, 0);" data-fragment-index="0">
-<h3>
-<em><span style="text-align:start">“<span> </span></span></em><span style="color:rgb(24, 24, 24); text-align:left">I’m not a great programmer; I’m just a good programmer with great habits.</span><em><span style="text-align:start">”</span></em>
-</h3>
+              <h3><span style="font-size: 1em">— Martin Fowler</span></h3>
+            </div>
+          </div>
+          <div
+            class="sl-block"
+            data-block-type="text"
+            style="width: 1120px; left: 80px; top: 423px; height: auto"
+            data-block-id="2312a67d099b8ffc91472cf25916e23c"
+            data-name="text-774f6c"
+          >
+            <div
+              class="sl-block-content fragment"
+              data-placeholder-tag="h2"
+              data-placeholder-text="Subtitle"
+              style="z-index: 11; color: rgb(0, 0, 0)"
+              data-fragment-index="0"
+            >
+              <h3>
+                <em
+                  ><span style="text-align: start">“<span> </span></span></em
+                ><span style="color: rgb(24, 24, 24); text-align: left"
+                  >I’m not a great programmer; I’m just a good programmer with
+                  great habits.</span
+                ><em><span style="text-align: start">”</span></em>
+              </h3>
 
-<h3>— Martin Fowler</h3>
-</div></div></section><section data-id="7ed94e91bbfa08df67085dcd2f90a461"><div class="sl-block" data-block-type="text" style="width: 806px; left: 237px; top: 167px; height: auto;" data-block-id="315116094a471cb59efcc22777d343be"><div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text" style="z-index: 10;">
-<h1>@avindrafernando</h1>
-</div></div>
+              <h3>— Martin Fowler</h3>
+            </div>
+          </div>
+        </section>
+        <section data-id="b783428dcf690d3d305bbc6e8b200cdc">
+          <div
+            class="sl-block"
+            data-block-type="image"
+            data-name="image-e044db"
+            data-block-id="98541b05375e05bf6cfc00717434b65c"
+            style="
+              width: 355.323px;
+              height: 532.799px;
+              left: 142.339px;
+              top: 93.6005px;
+              min-width: 1px;
+              min-height: 1px;
+            "
+          >
+            <div class="sl-block-content" style="z-index: 10">
+              <img
+                style=""
+                data-natural-width="1920"
+                data-natural-height="2879"
+                data-lazy-loaded=""
+                data-src="10-ways-to-write-clean-javascript-code/d0faebc4ad7dec4f8c14826a47be8dec"
+              />
+            </div>
+          </div>
+          <div
+            class="sl-block"
+            data-block-type="image"
+            data-name="image-76e3b0"
+            data-block-id="a94a18341af963d00b008e9b26441a9f"
+            style="
+              width: 577.2px;
+              height: 384.8px;
+              left: 640px;
+              top: 167.6px;
+              min-width: 1px;
+              min-height: 1px;
+            "
+          >
+            <div class="sl-block-content" style="z-index: 11">
+              <img
+                style=""
+                data-natural-width="1920"
+                data-natural-height="1280"
+                data-lazy-loaded=""
+                data-src="10-ways-to-write-clean-javascript-code/d5a1d2736260979325b231e56edcc6ff"
+              />
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
 
-<div class="sl-block" data-block-type="text" style="width: 1049px; left: 115.5px; top: 383px; height: auto;" data-block-id="3b2c536ee7ec3c0b800d5edc7f63f760" data-name="text-c2b309"><div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text" style="z-index: 11;">
-<h1>Taprobane Consulting, LLC</h1>
-</div></div></section><section data-id="b783428dcf690d3d305bbc6e8b200cdc"><div class="sl-block" data-block-type="image" data-name="image-e044db" data-block-id="98541b05375e05bf6cfc00717434b65c" style="width: 355.323px; height: 532.799px; left: 142.339px; top: 93.6005px; min-width: 1px; min-height: 1px;"><div class="sl-block-content" style="z-index: 10;"><img style="" data-natural-width="1920" data-natural-height="2879" data-lazy-loaded="" data-src="10-ways-to-write-clean-javascript-code/d0faebc4ad7dec4f8c14826a47be8dec"></div></div>
-<div class="sl-block" data-block-type="image" data-name="image-76e3b0" data-block-id="a94a18341af963d00b008e9b26441a9f" style="width: 577.2px; height: 384.8px; left: 640px; top: 167.6px; min-width: 1px; min-height: 1px;"><div class="sl-block-content" style="z-index: 11;"><img style="" data-natural-width="1920" data-natural-height="1280" data-lazy-loaded="" data-src="10-ways-to-write-clean-javascript-code/d5a1d2736260979325b231e56edcc6ff"></div></div></section>
-			</div>
-		</div>
+    <script>
+      var SLConfig = {
+        deck: {
+          id: 2228545,
+          slug: "10-ways-to-write-clean-javascript-code",
+          title: "10 Ways to Write Clean JavaScript Code - CodeMash 2022",
+          description: "",
+          width: 1280,
+          height: 720,
+          margin: 0.05,
+          visibility: "self",
+          published_at: null,
+          sanitize_messages: null,
+          thumbnail_url:
+            "https://s3.amazonaws.com/media-p.slid.es/thumbnails/e4a0d90a9596b28b4f431a1ba1efd527/thumb.jpg?1641951943",
+          view_count: 0,
+          user: {
+            id: 887386,
+            username: "avindrafernando",
+            name: "Avindra Fernando",
+            description: null,
+            thumbnail_url:
+              "https://lh6.googleusercontent.com/-M3NEgrSsLQE/AAAAAAAAAAI/AAAAAAAAAng/gI6HoGNo1s0/photo.jpg",
+            account_type: "lite",
+            team_id: null,
+            settings: {
+              id: 1364586,
+              present_controls: true,
+              present_upsizing: true,
+              present_pointer: false,
+              present_notes: true,
+              default_deck_tag_id: null,
+            },
+          },
+          background_transition: "slide",
+          transition: "slide",
+          theme_id: null,
+          theme_font: "montserrat",
+          theme_color: "silver-blue",
+          auto_slide_interval: 0,
+          comments_enabled: true,
+          forking_enabled: false,
+          rolling_links: false,
+          center: false,
+          shuffle: false,
+          should_loop: false,
+          share_notes: false,
+          slide_number: false,
+          slide_count: 64,
+          rtl: false,
+          version: 2,
+          collaborative: null,
+          deck_user_editor_limit: 1,
+          data_updated_at: 1642006764900,
+          font_typekit: null,
+          font_google: null,
+          time_limit: null,
+          navigation_mode: "default",
+          upsizing_enabled: true,
+          notes: {},
+        },
+      };
 
-		<script>
-			var SLConfig = {"deck": {"id":2228545,"slug":"10-ways-to-write-clean-javascript-code","title":"10 Ways to Write Clean JavaScript Code - CodeMash 2022","description":"","width":1280,"height":720,"margin":0.05,"visibility":"self","published_at":null,"sanitize_messages":null,"thumbnail_url":"https://s3.amazonaws.com/media-p.slid.es/thumbnails/e4a0d90a9596b28b4f431a1ba1efd527/thumb.jpg?1641951943","view_count":0,"user":{"id":887386,"username":"avindrafernando","name":"Avindra Fernando","description":null,"thumbnail_url":"https://lh6.googleusercontent.com/-M3NEgrSsLQE/AAAAAAAAAAI/AAAAAAAAAng/gI6HoGNo1s0/photo.jpg","account_type":"lite","team_id":null,"settings":{"id":1364586,"present_controls":true,"present_upsizing":true,"present_pointer":false,"present_notes":true,"default_deck_tag_id":null}},"background_transition":"slide","transition":"slide","theme_id":null,"theme_font":"montserrat","theme_color":"silver-blue","auto_slide_interval":0,"comments_enabled":true,"forking_enabled":false,"rolling_links":false,"center":false,"shuffle":false,"should_loop":false,"share_notes":false,"slide_number":false,"slide_count":64,"rtl":false,"version":2,"collaborative":null,"deck_user_editor_limit":1,"data_updated_at":1642006764900,"font_typekit":null,"font_google":null,"time_limit":null,"navigation_mode":"default","upsizing_enabled":true,"notes":{}}};
+      // Use local fonts
+      SLConfig.fonts_url = "lib/fonts/";
+    </script>
 
+    <script src="lib/reveal.js"></script>
+    <script src="lib/reveal-plugins.js"></script>
+    <script src="lib/offline.js"></script>
 
-			// Use local fonts
-			SLConfig.fonts_url = 'lib/fonts/';
-		</script>
+    <!-- Initialize the presentation -->
+    <script>
+      Reveal.initialize({
+        width: 1280,
+        height: 720,
+        margin: 0.05,
 
-		<script src="lib/reveal.js"></script>
-		<script src="lib/reveal-plugins.js"></script>
-		<script src="lib/offline.js"></script>
+        hash: true,
+        controls: true,
+        progress: true,
+        mouseWheel: false,
+        showNotes: false,
+        slideNumber: false,
+        fragmentInURL: true,
 
-		<!-- Initialize the presentation -->
-		<script>
-			Reveal.initialize({
-				width: 1280,
-				height: 720,
-				margin: 0.05,
-				
+        autoSlide: 0,
+        autoSlideStoppable: true,
 
-				hash: true,
-				controls: true,
-				progress: true,
-				mouseWheel: false,
-				showNotes: false,
-				slideNumber: false,
-				fragmentInURL: true,
+        autoAnimateMatcher: SL.deck.AutoAnimate.matcher,
 
-				autoSlide: 0,
-				autoSlideStoppable: true,
+        center: false,
+        shuffle: false,
+        loop: false,
+        rtl: false,
+        navigationMode: "default",
 
-				autoAnimateMatcher: SL.deck.AutoAnimate.matcher,
+        transition: "slide",
+        backgroundTransition: "slide",
 
-				center: false,
-				shuffle: false,
-				loop: false,
-				rtl: false,
-				navigationMode: "default",
+        highlight: {
+          escapeHTML: false,
+        },
 
-				transition: "slide",
-				backgroundTransition: "slide",
-
-				highlight: {
-					escapeHTML: false
-				},
-
-				plugins: [ RevealZoom, RevealNotes, RevealMarkdown, RevealHighlight ]
-			});
-		</script>
-
-		
-
-	</body>
+        plugins: [RevealZoom, RevealNotes, RevealMarkdown, RevealHighlight],
+      });
+    </script>
+  </body>
 </html>
